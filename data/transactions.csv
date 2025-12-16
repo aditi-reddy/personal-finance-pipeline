@@ -1,0 +1,1001 @@
+transaction_id,date,time,merchant,category,amount,payment_method,status
+TXN000239,2023-01-01,05:11,Walmart,Groceries,57.57,Debit Card,Posted
+TXN000957,2023-01-02,21:10,Public Transit,Transportation,28.98,Debit Card,Posted
+TXN000247,2023-01-04,08:23,Walmart,Groceries,119.44,Debit Card,Posted
+TXN000369,2023-01-05,16:35,Starbucks,Restaurants,66.43,Credit Card,Posted
+TXN000521,2023-01-05,03:15,Subway,Restaurants,57.56,Digital Wallet,Posted
+TXN000652,2023-01-05,01:00,Netflix,Subscriptions,16.18,Cash,Posted
+TXN000171,2023-01-07,07:59,Whole Foods,Groceries,88.3,Debit Card,Posted
+TXN000332,2023-01-09,21:33,Macys,Shopping,72.8,Digital Wallet,Posted
+TXN000046,2023-01-10,18:50,AMC Theaters,Entertainment,82.67,Cash,Posted
+TXN000744,2023-01-11,22:27,Chipotle,Restaurants,77.25,Digital Wallet,Posted
+TXN000912,2023-01-11,10:19,Amazon,Shopping,283.32,Cash,Posted
+TXN000406,2023-01-13,17:46,Subway,Restaurants,40.85,Digital Wallet,Posted
+TXN000763,2023-01-14,14:35,Costco,Groceries,77.85,Cash,Posted
+TXN000818,2023-01-14,07:13,Shell,Gas,32.37,Credit Card,Posted
+TXN000985,2023-01-14,02:37,Amazon,Shopping,202.38,Credit Card,Posted
+TXN000666,2023-01-15,01:33,Marathon,Gas,67.62,Credit Card,Posted
+TXN000442,2023-01-16,05:17,Amazon Prime,Entertainment,31.65,Credit Card,Posted
+TXN000673,2023-01-16,04:51,Whole Foods,Groceries,135.19,Credit Card,Pending
+TXN000097,2023-01-17,21:26,Lyft,Transportation,31.37,Digital Wallet,Posted
+TXN000837,2023-01-18,03:32,Public Transit,Transportation,15.14,Credit Card,Posted
+TXN000634,2023-01-19,07:04,Dentist Office,Healthcare,470.35,Debit Card,Posted
+TXN000192,2023-01-20,05:35,Nike,Shopping,125.36,Cash,Posted
+TXN000591,2023-01-20,17:29,Amazon Prime,Entertainment,10.34,Debit Card,Posted
+TXN000304,2023-01-21,23:18,Spotify,Entertainment,49.55,Debit Card,Posted
+TXN000310,2023-01-21,09:12,Trader Joes,Groceries,40.56,Debit Card,Posted
+TXN000901,2023-01-21,03:27,Trader Joes,Groceries,102.81,Credit Card,Pending
+TXN000659,2023-01-23,16:17,Amazon Prime,Entertainment,87.43,Debit Card,Posted
+TXN000291,2023-01-24,17:23,Walgreens,Healthcare,203.65,Digital Wallet,Posted
+TXN000351,2023-01-27,18:55,Amazon,Shopping,114.92,Cash,Posted
+TXN000391,2023-01-27,13:32,Netflix,Entertainment,86.09,Cash,Posted
+TXN000533,2023-01-28,21:46,Spotify,Subscriptions,25.67,Cash,Posted
+TXN000970,2023-01-28,04:43,Chipotle,Restaurants,47.84,Credit Card,Posted
+TXN000366,2023-01-29,10:15,Marathon,Gas,54.62,Credit Card,Posted
+TXN000857,2023-01-29,06:56,Macys,Shopping,42.03,Credit Card,Posted
+TXN000942,2023-01-29,09:48,AMC Theaters,Entertainment,17.12,Cash,Posted
+TXN000220,2023-01-30,03:36,Public Transit,Transportation,9.03,Cash,Posted
+TXN000449,2023-01-31,07:56,CVS Pharmacy,Healthcare,264.11,Cash,Posted
+TXN000694,2023-01-31,18:29,Target,Shopping,126.1,Debit Card,Posted
+TXN000206,2023-02-02,04:20,Public Transit,Transportation,28.05,Debit Card,Posted
+TXN000461,2023-02-02,08:53,Walmart,Groceries,64.39,Credit Card,Posted
+TXN000776,2023-02-02,23:35,Kroger,Groceries,56.37,Debit Card,Posted
+TXN000650,2023-02-03,23:54,Gym Membership,Subscriptions,14.05,Credit Card,Posted
+TXN000361,2023-02-04,11:18,Walmart,Groceries,86.76,Cash,Pending
+TXN000375,2023-02-05,16:34,Netflix,Subscriptions,15.43,Credit Card,Posted
+TXN000511,2023-02-06,14:17,Chevron,Gas,39.02,Debit Card,Posted
+TXN000526,2023-02-06,13:59,Property Management,Rent,1272.74,Debit Card,Posted
+TXN000695,2023-02-06,11:59,Gym Membership,Subscriptions,21.34,Digital Wallet,Posted
+TXN000084,2023-02-07,17:25,Marathon,Gas,50.19,Credit Card,Posted
+TXN000392,2023-02-07,02:19,Kroger,Groceries,98.77,Credit Card,Posted
+TXN000508,2023-02-08,23:28,Costco,Groceries,79.48,Credit Card,Posted
+TXN000630,2023-02-08,19:19,Property Management,Rent,1506.67,Debit Card,Posted
+TXN000011,2023-02-09,15:57,Parking,Transportation,17.5,Credit Card,Posted
+TXN000295,2023-02-09,11:15,Costco,Groceries,30.54,Debit Card,Posted
+TXN000756,2023-02-09,13:34,Walmart,Groceries,126.88,Digital Wallet,Posted
+TXN000661,2023-02-10,17:51,Nike,Shopping,144.19,Digital Wallet,Posted
+TXN000900,2023-02-10,18:39,Costco,Groceries,73.06,Credit Card,Posted
+TXN000234,2023-02-11,02:49,Target,Shopping,99.85,Digital Wallet,Posted
+TXN000061,2023-02-13,08:15,Starbucks,Restaurants,46.75,Debit Card,Posted
+TXN000553,2023-02-13,19:30,Starbucks,Restaurants,15.56,Credit Card,Posted
+TXN000158,2023-02-15,19:17,Macys,Shopping,143.31,Debit Card,Pending
+TXN000282,2023-02-15,00:03,Amazon Prime,Entertainment,49.23,Debit Card,Posted
+TXN000543,2023-02-16,20:18,Kroger,Groceries,33.31,Digital Wallet,Posted
+TXN000687,2023-02-16,19:22,Netflix,Entertainment,39.72,Digital Wallet,Posted
+TXN000276,2023-02-17,21:22,Costco,Groceries,127.36,Cash,Posted
+TXN000684,2023-02-17,01:09,Gym Membership,Subscriptions,25.11,Credit Card,Posted
+TXN000764,2023-02-19,00:02,Panera,Restaurants,20.35,Credit Card,Posted
+TXN000716,2023-02-22,15:05,Trader Joes,Groceries,103.09,Digital Wallet,Posted
+TXN000223,2023-02-23,09:04,CVS Pharmacy,Healthcare,483.53,Digital Wallet,Pending
+TXN000129,2023-02-24,01:33,Lyft,Transportation,21.7,Cash,Posted
+TXN000010,2023-02-27,11:46,Whole Foods,Groceries,92.7,Debit Card,Posted
+TXN000144,2023-02-28,11:44,Exxon,Gas,57.44,Credit Card,Posted
+TXN000256,2023-03-01,06:14,Amazon Prime,Entertainment,83.23,Cash,Posted
+TXN000312,2023-03-01,23:31,Costco,Groceries,37.1,Credit Card,Posted
+TXN000216,2023-03-02,21:16,Trader Joes,Groceries,32.12,Digital Wallet,Posted
+TXN000971,2023-03-02,23:31,Spotify,Entertainment,55.35,Credit Card,Posted
+TXN000117,2023-03-03,08:09,Nike,Shopping,65.91,Credit Card,Posted
+TXN000955,2023-03-03,19:37,Chevron,Gas,67.8,Cash,Posted
+TXN000998,2023-03-03,11:18,Target,Shopping,213.21,Credit Card,Posted
+TXN000456,2023-03-05,08:32,Costco,Groceries,106.93,Digital Wallet,Posted
+TXN000813,2023-03-06,09:30,Marathon,Gas,40.64,Cash,Posted
+TXN000394,2023-03-07,23:17,Netflix,Entertainment,44.17,Cash,Posted
+TXN000323,2023-03-09,18:41,Amazon Prime,Entertainment,25.04,Credit Card,Posted
+TXN000401,2023-03-10,05:39,Chipotle,Restaurants,42.96,Credit Card,Posted
+TXN000049,2023-03-11,06:58,Nike,Shopping,44.29,Cash,Posted
+TXN000721,2023-03-11,00:39,Subway,Restaurants,68.77,Debit Card,Posted
+TXN000740,2023-03-11,04:53,Best Buy,Shopping,125.63,Digital Wallet,Posted
+TXN000531,2023-03-12,03:37,Lyft,Transportation,34.91,Cash,Posted
+TXN000823,2023-03-12,07:46,Uber,Transportation,49.24,Digital Wallet,Posted
+TXN000822,2023-03-13,11:06,Kroger,Groceries,64.06,Credit Card,Posted
+TXN000718,2023-03-14,10:56,Subway,Restaurants,18.95,Debit Card,Posted
+TXN000258,2023-03-15,22:48,Walmart,Groceries,29.96,Credit Card,Posted
+TXN000817,2023-03-16,18:44,Shell,Gas,41.78,Debit Card,Posted
+TXN000898,2023-03-16,17:16,Starbucks,Restaurants,68.62,Cash,Posted
+TXN000468,2023-03-18,08:09,Whole Foods,Groceries,93.1,Cash,Posted
+TXN000497,2023-03-18,02:17,Starbucks,Restaurants,68.33,Digital Wallet,Posted
+TXN000802,2023-03-18,09:34,Parking,Transportation,38.39,Credit Card,Posted
+TXN000383,2023-03-19,10:01,McDonalds,Restaurants,40.16,Credit Card,Posted
+TXN000222,2023-03-21,10:40,Electric Company,Utilities,195.82,Debit Card,Posted
+TXN000372,2023-03-21,22:17,Uber,Transportation,28.1,Cash,Posted
+TXN000440,2023-03-21,21:00,Whole Foods,Groceries,126.11,Credit Card,Posted
+TXN000459,2023-03-21,19:24,Target,Shopping,114.11,Cash,Posted
+TXN000055,2023-03-23,16:30,Panera,Restaurants,77.81,Debit Card,Posted
+TXN000130,2023-03-24,03:24,Walmart,Groceries,66.32,Cash,Pending
+TXN000290,2023-03-24,23:52,Starbucks,Restaurants,63.24,Debit Card,Posted
+TXN000336,2023-03-24,07:36,Uber,Transportation,37.34,Debit Card,Posted
+TXN000012,2023-03-25,17:55,Property Management,Rent,1007.3,Debit Card,Posted
+TXN000436,2023-03-25,23:47,Shell,Gas,47.57,Credit Card,Posted
+TXN000451,2023-03-25,09:10,Exxon,Gas,36.35,Debit Card,Posted
+TXN000946,2023-03-25,11:03,Nike,Shopping,256.39,Debit Card,Posted
+TXN000087,2023-03-27,18:01,Subway,Restaurants,73.4,Credit Card,Posted
+TXN000770,2023-03-27,11:32,Starbucks,Restaurants,68.17,Debit Card,Posted
+TXN000974,2023-03-27,20:16,Whole Foods,Groceries,36.43,Credit Card,Posted
+TXN000996,2023-03-27,04:59,Chevron,Gas,56.57,Cash,Posted
+TXN000378,2023-03-28,15:12,Gas Company,Utilities,101.02,Credit Card,Posted
+TXN000911,2023-03-28,17:44,Walmart,Groceries,29.72,Credit Card,Posted
+TXN000069,2023-03-30,16:20,Trader Joes,Groceries,68.77,Debit Card,Posted
+TXN000529,2023-03-30,22:18,Kroger,Groceries,56.34,Debit Card,Posted
+TXN000538,2023-03-31,05:27,Chipotle,Restaurants,61.12,Digital Wallet,Posted
+TXN000999,2023-03-31,15:02,Macys,Shopping,218.36,Credit Card,Posted
+TXN000072,2023-04-01,14:06,Lyft,Transportation,44.3,Debit Card,Posted
+TXN000321,2023-04-01,03:48,AMC Theaters,Entertainment,84.92,Credit Card,Posted
+TXN000013,2023-04-02,15:34,Shell,Gas,30.94,Digital Wallet,Posted
+TXN000368,2023-04-02,08:06,Amazon,Shopping,39.05,Credit Card,Posted
+TXN000820,2023-04-04,19:14,Walmart,Groceries,90.49,Digital Wallet,Posted
+TXN000859,2023-04-04,04:39,Gym Membership,Subscriptions,6.54,Digital Wallet,Posted
+TXN000306,2023-04-05,14:34,CVS Pharmacy,Healthcare,459.65,Digital Wallet,Posted
+TXN000507,2023-04-06,11:19,Property Management,Rent,1478.37,Cash,Posted
+TXN000701,2023-04-06,05:54,Costco,Groceries,148.57,Cash,Posted
+TXN000211,2023-04-07,04:07,Gym Membership,Subscriptions,14.41,Credit Card,Pending
+TXN000977,2023-04-07,09:00,Whole Foods,Groceries,69.01,Credit Card,Posted
+TXN000645,2023-04-08,16:09,Water Dept,Utilities,130.16,Debit Card,Posted
+TXN000305,2023-04-09,04:17,Public Transit,Transportation,37.7,Credit Card,Posted
+TXN000413,2023-04-09,04:21,Exxon,Gas,68.29,Credit Card,Posted
+TXN000502,2023-04-09,08:48,Internet Provider,Utilities,69.0,Cash,Posted
+TXN000550,2023-04-09,08:25,AMC Theaters,Entertainment,23.68,Credit Card,Posted
+TXN000783,2023-04-09,09:19,Whole Foods,Groceries,31.68,Cash,Posted
+TXN000108,2023-04-10,23:36,Amazon,Shopping,237.72,Cash,Posted
+TXN000792,2023-04-10,04:18,Medical Center,Healthcare,99.12,Debit Card,Posted
+TXN000274,2023-04-11,18:28,Amazon,Shopping,244.35,Debit Card,Posted
+TXN000578,2023-04-11,19:42,Medical Center,Healthcare,119.76,Credit Card,Posted
+TXN000635,2023-04-11,17:15,McDonalds,Restaurants,15.25,Cash,Posted
+TXN000014,2023-04-12,18:17,Walmart,Groceries,121.94,Cash,Posted
+TXN000316,2023-04-13,23:47,Lyft,Transportation,42.02,Cash,Posted
+TXN000470,2023-04-16,21:11,Lyft,Transportation,40.58,Cash,Posted
+TXN000976,2023-04-16,21:22,Subway,Restaurants,57.9,Digital Wallet,Pending
+TXN000149,2023-04-17,10:07,Shell,Gas,56.14,Cash,Posted
+TXN000328,2023-04-17,03:12,Amazon Prime,Entertainment,26.48,Credit Card,Posted
+TXN000814,2023-04-17,21:37,AMC Theaters,Entertainment,31.62,Digital Wallet,Posted
+TXN000894,2023-04-17,14:16,Spotify,Subscriptions,17.89,Digital Wallet,Posted
+TXN000103,2023-04-18,22:03,AMC Theaters,Entertainment,29.63,Cash,Posted
+TXN000819,2023-04-20,21:02,Nike,Shopping,202.48,Digital Wallet,Posted
+TXN000961,2023-04-20,10:12,Spotify,Entertainment,88.52,Cash,Posted
+TXN000249,2023-04-21,13:26,Subway,Restaurants,21.04,Digital Wallet,Posted
+TXN000992,2023-04-21,11:52,Landlord,Rent,1753.8,Debit Card,Posted
+TXN000994,2023-04-21,11:23,Uber,Transportation,26.9,Cash,Posted
+TXN000821,2023-04-22,20:44,Amazon,Shopping,223.26,Debit Card,Posted
+TXN000952,2023-04-22,16:01,McDonalds,Restaurants,44.59,Digital Wallet,Posted
+TXN000091,2023-04-26,22:18,Amazon,Shopping,229.46,Cash,Posted
+TXN000854,2023-04-26,21:01,Public Transit,Transportation,6.02,Credit Card,Posted
+TXN000954,2023-04-26,00:42,Panera,Restaurants,19.97,Cash,Posted
+TXN000182,2023-04-27,03:35,Public Transit,Transportation,42.63,Digital Wallet,Posted
+TXN000757,2023-04-28,19:42,Landlord,Rent,1915.0,Debit Card,Posted
+TXN000066,2023-04-29,18:17,Gas Company,Utilities,128.3,Credit Card,Posted
+TXN000004,2023-05-01,20:00,McDonalds,Restaurants,28.08,Debit Card,Posted
+TXN000007,2023-05-01,16:55,Trader Joes,Groceries,129.71,Digital Wallet,Posted
+TXN000146,2023-05-01,07:12,Walmart,Groceries,83.02,Credit Card,Posted
+TXN000812,2023-05-01,15:04,Landlord,Rent,919.09,Digital Wallet,Posted
+TXN000142,2023-05-03,20:09,Panera,Restaurants,28.83,Credit Card,Posted
+TXN000164,2023-05-04,14:03,Whole Foods,Groceries,132.39,Digital Wallet,Posted
+TXN000294,2023-05-06,01:04,Amazon Prime,Entertainment,25.97,Credit Card,Posted
+TXN000385,2023-05-06,05:50,Starbucks,Restaurants,28.04,Credit Card,Posted
+TXN000500,2023-05-06,06:42,Marathon,Gas,37.47,Cash,Posted
+TXN000089,2023-05-08,02:50,Kroger,Groceries,65.38,Debit Card,Posted
+TXN000168,2023-05-09,02:51,Parking,Transportation,9.2,Credit Card,Pending
+TXN000914,2023-05-10,21:29,Kroger,Groceries,140.95,Digital Wallet,Posted
+TXN000921,2023-05-10,20:05,Microsoft 365,Subscriptions,14.36,Credit Card,Posted
+TXN000925,2023-05-10,11:24,Netflix,Entertainment,88.1,Credit Card,Posted
+TXN000892,2023-05-11,10:15,Medical Center,Healthcare,69.9,Digital Wallet,Posted
+TXN000326,2023-05-13,08:19,Starbucks,Restaurants,76.95,Cash,Posted
+TXN000020,2023-05-14,04:34,Microsoft 365,Subscriptions,17.37,Debit Card,Posted
+TXN000885,2023-05-14,04:54,Public Transit,Transportation,28.42,Digital Wallet,Posted
+TXN000207,2023-05-15,03:54,McDonalds,Restaurants,78.29,Credit Card,Posted
+TXN000793,2023-05-15,17:46,Landlord,Rent,1635.96,Credit Card,Posted
+TXN000811,2023-05-15,12:06,Walmart,Groceries,99.4,Digital Wallet,Posted
+TXN000354,2023-05-16,05:01,Amazon Prime,Entertainment,56.94,Debit Card,Posted
+TXN000872,2023-05-17,20:09,Amazon Prime,Entertainment,43.09,Cash,Posted
+TXN000257,2023-05-18,20:44,Walmart,Groceries,138.01,Digital Wallet,Posted
+TXN000586,2023-05-18,18:45,McDonalds,Restaurants,73.82,Digital Wallet,Posted
+TXN000609,2023-05-19,04:05,Whole Foods,Groceries,88.18,Debit Card,Posted
+TXN000139,2023-05-20,18:12,Spotify,Entertainment,72.34,Debit Card,Posted
+TXN000474,2023-05-20,22:57,Internet Provider,Utilities,86.48,Debit Card,Posted
+TXN000778,2023-05-20,13:15,Panera,Restaurants,18.5,Credit Card,Posted
+TXN000414,2023-05-21,23:36,Parking,Transportation,41.2,Debit Card,Posted
+TXN000640,2023-05-21,11:11,Whole Foods,Groceries,127.23,Digital Wallet,Posted
+TXN000501,2023-05-24,05:26,Kroger,Groceries,125.86,Debit Card,Posted
+TXN000692,2023-05-24,15:08,Public Transit,Transportation,46.74,Cash,Posted
+TXN000347,2023-05-25,18:39,Parking,Transportation,30.57,Credit Card,Posted
+TXN000690,2023-05-25,10:45,Adobe,Subscriptions,10.27,Cash,Posted
+TXN000656,2023-05-27,00:53,Best Buy,Shopping,79.46,Digital Wallet,Posted
+TXN000096,2023-05-29,16:07,Panera,Restaurants,71.86,Credit Card,Posted
+TXN000307,2023-05-30,07:38,Public Transit,Transportation,38.91,Credit Card,Posted
+TXN000573,2023-05-30,20:08,Panera,Restaurants,69.42,Digital Wallet,Posted
+TXN000169,2023-05-31,22:08,Best Buy,Shopping,189.76,Cash,Posted
+TXN000806,2023-05-31,15:07,BP,Gas,48.92,Cash,Posted
+TXN000520,2023-06-02,20:34,CVS Pharmacy,Healthcare,286.52,Cash,Posted
+TXN000539,2023-06-02,01:09,Macys,Shopping,217.08,Debit Card,Posted
+TXN000963,2023-06-02,10:40,AMC Theaters,Entertainment,22.94,Digital Wallet,Posted
+TXN000204,2023-06-03,20:55,Spotify,Subscriptions,9.3,Cash,Posted
+TXN000215,2023-06-04,13:00,Landlord,Rent,856.17,Cash,Posted
+TXN000493,2023-06-04,21:22,Trader Joes,Groceries,76.09,Digital Wallet,Posted
+TXN000453,2023-06-05,20:46,Amazon Prime,Entertainment,83.34,Cash,Posted
+TXN000309,2023-06-06,02:33,Costco,Groceries,149.5,Digital Wallet,Posted
+TXN000862,2023-06-07,03:56,Property Management,Rent,1738.65,Digital Wallet,Posted
+TXN000095,2023-06-09,18:27,Uber,Transportation,43.8,Credit Card,Posted
+TXN000100,2023-06-09,04:43,Subway,Restaurants,48.15,Cash,Posted
+TXN000884,2023-06-09,17:52,Parking,Transportation,26.75,Debit Card,Posted
+TXN000945,2023-06-09,16:15,Microsoft 365,Subscriptions,28.15,Debit Card,Posted
+TXN000598,2023-06-10,15:03,Parking,Transportation,39.26,Debit Card,Posted
+TXN000625,2023-06-10,16:00,Gym Membership,Subscriptions,21.26,Debit Card,Posted
+TXN000719,2023-06-11,06:51,Nike,Shopping,294.41,Debit Card,Posted
+TXN000968,2023-06-11,22:07,Panera,Restaurants,29.12,Debit Card,Posted
+TXN000995,2023-06-11,13:25,Netflix,Subscriptions,25.56,Digital Wallet,Posted
+TXN000151,2023-06-12,10:16,Trader Joes,Groceries,37.33,Debit Card,Posted
+TXN000689,2023-06-12,20:08,Netflix,Subscriptions,23.3,Credit Card,Posted
+TXN000696,2023-06-12,15:12,Panera,Restaurants,63.6,Digital Wallet,Posted
+TXN000831,2023-06-13,16:53,Chipotle,Restaurants,40.01,Cash,Posted
+TXN000937,2023-06-13,03:35,Macys,Shopping,40.63,Credit Card,Posted
+TXN000064,2023-06-15,03:10,Property Management,Rent,1493.55,Debit Card,Pending
+TXN000688,2023-06-15,19:54,Microsoft 365,Subscriptions,13.68,Digital Wallet,Posted
+TXN000919,2023-06-16,04:18,BP,Gas,55.53,Credit Card,Posted
+TXN000948,2023-06-17,08:36,Property Management,Rent,1787.91,Digital Wallet,Posted
+TXN000562,2023-06-18,22:12,Electric Company,Utilities,129.72,Debit Card,Posted
+TXN000136,2023-06-19,16:20,Target,Shopping,132.89,Credit Card,Posted
+TXN000200,2023-06-19,14:34,Subway,Restaurants,42.35,Digital Wallet,Posted
+TXN000407,2023-06-19,13:41,Chipotle,Restaurants,62.42,Cash,Posted
+TXN000876,2023-06-19,13:14,Walmart,Groceries,20.97,Debit Card,Posted
+TXN000565,2023-06-20,16:30,Trader Joes,Groceries,104.47,Credit Card,Posted
+TXN000415,2023-06-23,04:48,Trader Joes,Groceries,125.56,Digital Wallet,Pending
+TXN000263,2023-06-25,00:52,Trader Joes,Groceries,74.16,Cash,Posted
+TXN000339,2023-06-25,17:06,Best Buy,Shopping,92.01,Debit Card,Posted
+TXN000486,2023-06-27,01:42,McDonalds,Restaurants,62.47,Digital Wallet,Posted
+TXN000607,2023-06-27,17:43,Netflix,Entertainment,13.01,Debit Card,Posted
+TXN000047,2023-06-28,13:59,Amazon,Shopping,42.9,Credit Card,Posted
+TXN000259,2023-06-28,10:53,Walgreens,Healthcare,285.39,Debit Card,Posted
+TXN000319,2023-06-28,08:48,Shell,Gas,31.9,Digital Wallet,Posted
+TXN000649,2023-06-28,19:40,McDonalds,Restaurants,66.83,Debit Card,Posted
+TXN000951,2023-06-30,16:25,Parking,Transportation,37.53,Credit Card,Posted
+TXN000412,2023-07-01,08:48,Amazon Prime,Entertainment,57.27,Credit Card,Posted
+TXN000079,2023-07-02,17:34,Public Transit,Transportation,46.82,Digital Wallet,Posted
+TXN000796,2023-07-02,10:46,Chipotle,Restaurants,25.93,Credit Card,Posted
+TXN000212,2023-07-03,04:28,Subway,Restaurants,65.96,Digital Wallet,Posted
+TXN000680,2023-07-03,12:12,Whole Foods,Groceries,63.49,Digital Wallet,Posted
+TXN000896,2023-07-03,09:15,Chipotle,Restaurants,43.46,Cash,Posted
+TXN000137,2023-07-04,03:14,McDonalds,Restaurants,39.58,Debit Card,Posted
+TXN000098,2023-07-05,23:13,Chipotle,Restaurants,20.32,Credit Card,Posted
+TXN000589,2023-07-05,02:00,Macys,Shopping,260.19,Debit Card,Posted
+TXN000512,2023-07-07,04:06,Starbucks,Restaurants,49.36,Cash,Posted
+TXN000382,2023-07-08,11:20,Panera,Restaurants,17.05,Cash,Posted
+TXN000006,2023-07-09,03:02,Macys,Shopping,210.64,Digital Wallet,Posted
+TXN000067,2023-07-09,01:47,Amazon,Shopping,263.44,Credit Card,Posted
+TXN000134,2023-07-09,22:55,Best Buy,Shopping,84.69,Debit Card,Posted
+TXN000161,2023-07-09,04:16,Water Dept,Utilities,104.7,Debit Card,Posted
+TXN000188,2023-07-09,22:26,Uber,Transportation,30.6,Cash,Posted
+TXN000236,2023-07-09,09:09,Lyft,Transportation,46.75,Credit Card,Pending
+TXN000231,2023-07-11,00:41,Spotify,Entertainment,40.98,Credit Card,Posted
+TXN000993,2023-07-11,21:15,Amazon,Shopping,177.35,Debit Card,Posted
+TXN000564,2023-07-15,21:17,Netflix,Subscriptions,10.41,Cash,Posted
+TXN000083,2023-07-16,03:57,Amazon,Shopping,105.48,Digital Wallet,Posted
+TXN000197,2023-07-18,23:52,Gym Membership,Subscriptions,6.28,Credit Card,Posted
+TXN000370,2023-07-18,04:13,Public Transit,Transportation,30.95,Credit Card,Posted
+TXN000845,2023-07-18,04:01,Walmart,Groceries,111.53,Digital Wallet,Posted
+TXN000605,2023-07-19,20:10,Netflix,Entertainment,54.28,Credit Card,Posted
+TXN000662,2023-07-20,02:48,Whole Foods,Groceries,30.31,Credit Card,Posted
+TXN000479,2023-07-21,19:32,Trader Joes,Groceries,111.85,Cash,Posted
+TXN000759,2023-07-21,10:15,AMC Theaters,Entertainment,14.54,Debit Card,Posted
+TXN000915,2023-07-21,23:13,McDonalds,Restaurants,30.68,Debit Card,Posted
+TXN000241,2023-07-22,10:04,AMC Theaters,Entertainment,10.32,Cash,Posted
+TXN000488,2023-07-22,02:22,Subway,Restaurants,53.97,Debit Card,Posted
+TXN000671,2023-07-22,11:43,Parking,Transportation,49.35,Digital Wallet,Posted
+TXN000978,2023-07-22,23:22,Subway,Restaurants,62.28,Digital Wallet,Posted
+TXN000324,2023-07-23,17:01,Target,Shopping,106.52,Debit Card,Posted
+TXN000664,2023-07-23,03:15,Panera,Restaurants,43.09,Digital Wallet,Posted
+TXN000752,2023-07-23,09:50,Target,Shopping,228.93,Debit Card,Posted
+TXN000166,2023-07-24,08:23,Starbucks,Restaurants,74.55,Cash,Posted
+TXN000704,2023-07-24,23:52,Amazon,Shopping,98.5,Cash,Pending
+TXN000075,2023-07-25,11:50,Target,Shopping,120.64,Digital Wallet,Pending
+TXN000420,2023-07-26,20:36,Gym Membership,Subscriptions,17.26,Cash,Posted
+TXN000804,2023-07-26,03:04,Lyft,Transportation,31.84,Credit Card,Posted
+TXN000982,2023-07-27,19:28,Spotify,Subscriptions,19.0,Debit Card,Posted
+TXN000303,2023-07-28,07:14,Chipotle,Restaurants,32.0,Credit Card,Posted
+TXN000893,2023-07-30,06:30,Adobe,Subscriptions,27.3,Credit Card,Posted
+TXN000834,2023-07-31,02:33,Exxon,Gas,61.88,Debit Card,Posted
+TXN000842,2023-07-31,16:01,Medical Center,Healthcare,113.01,Cash,Posted
+TXN000929,2023-07-31,20:40,Best Buy,Shopping,30.09,Digital Wallet,Posted
+TXN000455,2023-08-01,06:26,Starbucks,Restaurants,59.36,Debit Card,Posted
+TXN000195,2023-08-02,23:07,Costco,Groceries,109.34,Debit Card,Posted
+TXN000313,2023-08-03,14:25,Target,Shopping,195.69,Cash,Posted
+TXN000870,2023-08-03,12:27,Starbucks,Restaurants,23.98,Cash,Posted
+TXN000032,2023-08-04,17:52,Nike,Shopping,121.56,Cash,Posted
+TXN000198,2023-08-04,06:05,Chipotle,Restaurants,72.28,Debit Card,Posted
+TXN000856,2023-08-04,11:52,Medical Center,Healthcare,421.98,Debit Card,Posted
+TXN000253,2023-08-05,16:45,Costco,Groceries,56.3,Debit Card,Posted
+TXN000490,2023-08-05,20:36,Starbucks,Restaurants,61.87,Debit Card,Posted
+TXN000693,2023-08-07,20:56,Whole Foods,Groceries,76.74,Cash,Posted
+TXN000734,2023-08-07,00:05,Landlord,Rent,1829.6,Credit Card,Posted
+TXN000170,2023-08-09,01:01,Costco,Groceries,88.08,Cash,Posted
+TXN000465,2023-08-09,07:43,Gym Membership,Subscriptions,8.6,Credit Card,Posted
+TXN000672,2023-08-09,18:08,Property Management,Rent,1363.29,Cash,Posted
+TXN000193,2023-08-11,00:09,Kroger,Groceries,81.26,Credit Card,Posted
+TXN000317,2023-08-12,12:18,Shell,Gas,32.99,Credit Card,Posted
+TXN000746,2023-08-12,02:05,Amazon Prime,Entertainment,23.05,Cash,Posted
+TXN000355,2023-08-13,08:17,Exxon,Gas,44.19,Credit Card,Posted
+TXN000484,2023-08-13,04:15,Chipotle,Restaurants,58.59,Credit Card,Posted
+TXN000611,2023-08-14,19:20,McDonalds,Restaurants,24.36,Cash,Posted
+TXN000908,2023-08-15,07:06,Walmart,Groceries,116.7,Cash,Posted
+TXN000210,2023-08-16,18:01,Trader Joes,Groceries,147.65,Debit Card,Posted
+TXN000279,2023-08-16,10:10,Whole Foods,Groceries,25.82,Credit Card,Posted
+TXN000460,2023-08-16,03:48,Electric Company,Utilities,74.28,Credit Card,Posted
+TXN000941,2023-08-17,09:15,Kroger,Groceries,34.91,Cash,Posted
+TXN000090,2023-08-18,16:02,Nike,Shopping,110.57,Cash,Posted
+TXN000233,2023-08-18,23:50,Target,Shopping,249.6,Digital Wallet,Posted
+TXN000444,2023-08-19,00:29,Nike,Shopping,71.47,Digital Wallet,Posted
+TXN000927,2023-08-19,14:19,Spotify,Subscriptions,12.76,Digital Wallet,Posted
+TXN000235,2023-08-20,12:32,Amazon Prime,Entertainment,77.28,Digital Wallet,Posted
+TXN000424,2023-08-20,13:20,Target,Shopping,35.35,Cash,Posted
+TXN000882,2023-08-20,00:45,Costco,Groceries,68.64,Debit Card,Posted
+TXN000528,2023-08-21,12:09,Marathon,Gas,67.64,Credit Card,Posted
+TXN000920,2023-08-21,23:29,Gym Membership,Subscriptions,13.71,Credit Card,Posted
+TXN000621,2023-08-23,23:34,Dentist Office,Healthcare,134.88,Credit Card,Posted
+TXN000875,2023-08-24,01:34,Starbucks,Restaurants,45.57,Cash,Posted
+TXN000767,2023-08-26,12:55,McDonalds,Restaurants,32.47,Credit Card,Posted
+TXN000592,2023-08-27,04:00,Property Management,Rent,1051.16,Cash,Posted
+TXN000675,2023-08-27,20:04,Shell,Gas,48.64,Debit Card,Posted
+TXN000932,2023-08-28,14:04,Macys,Shopping,248.63,Digital Wallet,Posted
+TXN000933,2023-08-28,07:15,AMC Theaters,Entertainment,98.25,Cash,Posted
+TXN000697,2023-08-29,06:17,McDonalds,Restaurants,31.24,Cash,Posted
+TXN000722,2023-08-30,10:49,Landlord,Rent,828.53,Credit Card,Posted
+TXN000700,2023-08-31,06:43,Chevron,Gas,60.87,Cash,Posted
+TXN000429,2023-09-02,07:36,Kroger,Groceries,113.17,Credit Card,Posted
+TXN000576,2023-09-02,07:56,Nike,Shopping,115.81,Credit Card,Posted
+TXN000904,2023-09-03,07:36,McDonalds,Restaurants,23.61,Digital Wallet,Posted
+TXN000031,2023-09-05,03:34,Spotify,Subscriptions,26.36,Credit Card,Posted
+TXN000417,2023-09-05,03:55,Property Management,Rent,1686.87,Credit Card,Posted
+TXN000386,2023-09-08,07:15,Parking,Transportation,22.1,Digital Wallet,Posted
+TXN000774,2023-09-08,23:49,Lyft,Transportation,36.8,Digital Wallet,Posted
+TXN000088,2023-09-09,11:35,Landlord,Rent,1524.27,Cash,Posted
+TXN000582,2023-09-09,10:24,Amazon Prime,Entertainment,70.61,Debit Card,Posted
+TXN000174,2023-09-13,19:51,Costco,Groceries,128.28,Debit Card,Posted
+TXN000389,2023-09-14,04:00,Best Buy,Shopping,43.59,Digital Wallet,Posted
+TXN000612,2023-09-14,11:02,Chipotle,Restaurants,73.06,Digital Wallet,Pending
+TXN000152,2023-09-16,17:15,Walmart,Groceries,48.73,Credit Card,Posted
+TXN000175,2023-09-16,09:56,Marathon,Gas,61.0,Credit Card,Posted
+TXN000243,2023-09-16,05:50,Starbucks,Restaurants,40.55,Debit Card,Posted
+TXN000348,2023-09-17,11:58,Shell,Gas,41.22,Debit Card,Posted
+TXN000615,2023-09-17,05:35,CVS Pharmacy,Healthcare,414.57,Debit Card,Posted
+TXN000054,2023-09-18,17:44,Property Management,Rent,928.25,Credit Card,Posted
+TXN000403,2023-09-20,07:45,Gym Membership,Subscriptions,26.69,Digital Wallet,Posted
+TXN000799,2023-09-20,11:48,Parking,Transportation,10.26,Cash,Posted
+TXN000125,2023-09-21,07:25,Chipotle,Restaurants,67.13,Credit Card,Posted
+TXN000581,2023-09-21,22:28,Nike,Shopping,96.4,Cash,Posted
+TXN000422,2023-09-22,10:23,Subway,Restaurants,35.14,Cash,Posted
+TXN000177,2023-09-26,03:36,Gym Membership,Subscriptions,23.69,Credit Card,Posted
+TXN000698,2023-09-28,07:43,Best Buy,Shopping,75.64,Cash,Posted
+TXN000352,2023-09-30,00:53,Costco,Groceries,65.5,Debit Card,Posted
+TXN000485,2023-09-30,07:29,Medical Center,Healthcare,184.66,Credit Card,Posted
+TXN000707,2023-09-30,13:37,Electric Company,Utilities,89.9,Debit Card,Posted
+TXN000771,2023-09-30,06:53,Walgreens,Healthcare,479.53,Credit Card,Posted
+TXN000082,2023-10-01,00:57,CVS Pharmacy,Healthcare,462.13,Digital Wallet,Posted
+TXN000116,2023-10-01,01:58,Best Buy,Shopping,194.16,Digital Wallet,Posted
+TXN000340,2023-10-01,18:32,Trader Joes,Groceries,92.26,Debit Card,Posted
+TXN000358,2023-10-01,08:50,Nike,Shopping,166.82,Credit Card,Posted
+TXN000229,2023-10-02,17:43,Walgreens,Healthcare,41.41,Debit Card,Posted
+TXN000878,2023-10-03,10:23,Target,Shopping,189.8,Cash,Posted
+TXN000105,2023-10-04,17:10,Dentist Office,Healthcare,155.16,Debit Card,Posted
+TXN000028,2023-10-05,14:25,Internet Provider,Utilities,79.71,Credit Card,Posted
+TXN000109,2023-10-05,04:41,Panera,Restaurants,78.63,Digital Wallet,Posted
+TXN000865,2023-10-06,08:28,Whole Foods,Groceries,62.28,Digital Wallet,Posted
+TXN000035,2023-10-08,15:15,Whole Foods,Groceries,139.62,Digital Wallet,Posted
+TXN000261,2023-10-08,13:54,Amazon,Shopping,198.72,Digital Wallet,Posted
+TXN000071,2023-10-09,15:22,Uber,Transportation,34.58,Debit Card,Posted
+TXN000648,2023-10-09,11:23,BP,Gas,50.24,Credit Card,Posted
+TXN000791,2023-10-09,18:40,CVS Pharmacy,Healthcare,57.42,Credit Card,Posted
+TXN000514,2023-10-11,08:49,CVS Pharmacy,Healthcare,454.16,Digital Wallet,Posted
+TXN000871,2023-10-12,06:04,Trader Joes,Groceries,102.51,Cash,Posted
+TXN000956,2023-10-12,07:49,Chipotle,Restaurants,47.29,Credit Card,Posted
+TXN000960,2023-10-12,06:56,Landlord,Rent,1931.32,Debit Card,Posted
+TXN000467,2023-10-13,00:07,Subway,Restaurants,65.61,Debit Card,Posted
+TXN000938,2023-10-13,07:54,Public Transit,Transportation,35.04,Digital Wallet,Posted
+TXN000019,2023-10-14,01:21,Macys,Shopping,75.56,Cash,Posted
+TXN000058,2023-10-14,15:49,Nike,Shopping,95.86,Cash,Posted
+TXN000972,2023-10-15,18:18,Adobe,Subscriptions,11.88,Debit Card,Posted
+TXN000070,2023-10-16,02:47,Amazon Prime,Entertainment,40.33,Cash,Posted
+TXN000160,2023-10-16,14:57,Subway,Restaurants,26.22,Digital Wallet,Posted
+TXN000224,2023-10-16,15:08,Kroger,Groceries,98.9,Debit Card,Posted
+TXN000396,2023-10-17,03:47,Target,Shopping,166.59,Digital Wallet,Posted
+TXN000448,2023-10-17,13:45,Whole Foods,Groceries,137.1,Debit Card,Posted
+TXN000517,2023-10-17,17:33,Nike,Shopping,272.15,Credit Card,Posted
+TXN000849,2023-10-17,09:39,Starbucks,Restaurants,57.21,Debit Card,Posted
+TXN000320,2023-10-19,05:28,Netflix,Entertainment,94.08,Credit Card,Posted
+TXN000773,2023-10-19,06:08,Amazon Prime,Entertainment,75.91,Credit Card,Posted
+TXN000622,2023-10-20,16:19,Chevron,Gas,57.78,Cash,Posted
+TXN000681,2023-10-20,05:43,Shell,Gas,40.17,Credit Card,Posted
+TXN000653,2023-10-21,22:14,Trader Joes,Groceries,52.93,Credit Card,Posted
+TXN000119,2023-10-23,21:09,Electric Company,Utilities,183.45,Cash,Posted
+TXN000595,2023-10-23,02:04,Best Buy,Shopping,259.06,Cash,Posted
+TXN000199,2023-10-25,10:32,Lyft,Transportation,9.57,Cash,Posted
+TXN000094,2023-10-27,05:44,Kroger,Groceries,78.77,Cash,Posted
+TXN000250,2023-10-27,13:33,Whole Foods,Groceries,133.61,Debit Card,Posted
+TXN000367,2023-10-27,21:37,Spotify,Entertainment,12.05,Cash,Posted
+TXN000421,2023-10-27,09:33,Whole Foods,Groceries,56.75,Cash,Posted
+TXN000437,2023-10-27,22:01,Costco,Groceries,69.15,Debit Card,Posted
+TXN000457,2023-10-27,10:00,Lyft,Transportation,32.4,Digital Wallet,Posted
+TXN000676,2023-10-27,17:40,Trader Joes,Groceries,90.53,Cash,Posted
+TXN000288,2023-10-28,08:45,Amazon Prime,Entertainment,38.01,Cash,Posted
+TXN000230,2023-10-29,01:55,Internet Provider,Utilities,92.71,Cash,Posted
+TXN000471,2023-10-30,04:24,Whole Foods,Groceries,93.64,Debit Card,Posted
+TXN000051,2023-10-31,00:31,Lyft,Transportation,39.01,Digital Wallet,Posted
+TXN000603,2023-10-31,07:49,Shell,Gas,68.01,Digital Wallet,Posted
+TXN000266,2023-11-01,01:25,Water Dept,Utilities,177.39,Credit Card,Posted
+TXN000159,2023-11-02,12:41,Target,Shopping,232.31,Debit Card,Posted
+TXN000331,2023-11-04,20:46,Uber,Transportation,19.09,Debit Card,Posted
+TXN000452,2023-11-04,20:15,Public Transit,Transportation,30.14,Credit Card,Posted
+TXN000546,2023-11-06,21:02,Macys,Shopping,176.49,Debit Card,Posted
+TXN000795,2023-11-06,05:27,CVS Pharmacy,Healthcare,300.08,Debit Card,Posted
+TXN000830,2023-11-07,16:41,Chipotle,Restaurants,30.2,Cash,Posted
+TXN000353,2023-11-08,07:13,Medical Center,Healthcare,124.54,Credit Card,Posted
+TXN000133,2023-11-09,19:10,Netflix,Subscriptions,11.89,Credit Card,Posted
+TXN000360,2023-11-11,20:53,Internet Provider,Utilities,194.85,Credit Card,Posted
+TXN000787,2023-11-12,01:41,Spotify,Entertainment,26.37,Credit Card,Posted
+TXN000574,2023-11-13,03:58,BP,Gas,36.12,Cash,Posted
+TXN000606,2023-11-13,05:42,Walmart,Groceries,41.49,Digital Wallet,Posted
+TXN000044,2023-11-14,09:36,Trader Joes,Groceries,85.95,Digital Wallet,Posted
+TXN000163,2023-11-14,21:20,Subway,Restaurants,34.34,Cash,Posted
+TXN000570,2023-11-14,07:05,Parking,Transportation,33.24,Cash,Posted
+TXN000848,2023-11-14,20:20,Walmart,Groceries,149.99,Debit Card,Posted
+TXN000157,2023-11-15,10:08,BP,Gas,63.99,Credit Card,Posted
+TXN000346,2023-11-16,12:58,Landlord,Rent,1315.96,Credit Card,Posted
+TXN000906,2023-11-16,03:36,Whole Foods,Groceries,77.31,Debit Card,Posted
+TXN000678,2023-11-17,01:33,Kroger,Groceries,140.16,Credit Card,Posted
+TXN000732,2023-11-17,15:32,Public Transit,Transportation,23.52,Debit Card,Posted
+TXN000944,2023-11-17,22:49,Costco,Groceries,47.73,Credit Card,Posted
+TXN000284,2023-11-18,17:04,Chevron,Gas,43.08,Credit Card,Posted
+TXN000300,2023-11-18,13:30,Spotify,Subscriptions,29.27,Digital Wallet,Posted
+TXN000330,2023-11-18,23:21,Dentist Office,Healthcare,330.93,Digital Wallet,Posted
+TXN000918,2023-11-18,06:52,Nike,Shopping,206.18,Cash,Posted
+TXN000021,2023-11-19,14:28,McDonalds,Restaurants,67.96,Debit Card,Posted
+TXN000495,2023-11-20,20:41,Lyft,Transportation,40.43,Digital Wallet,Posted
+TXN000008,2023-11-21,03:26,Trader Joes,Groceries,135.32,Debit Card,Posted
+TXN000184,2023-11-21,01:23,Trader Joes,Groceries,72.75,Debit Card,Posted
+TXN000494,2023-11-21,15:00,Parking,Transportation,47.2,Credit Card,Posted
+TXN000847,2023-11-21,17:38,Gym Membership,Subscriptions,29.92,Credit Card,Posted
+TXN000506,2023-11-24,17:03,Landlord,Rent,1790.07,Cash,Posted
+TXN000155,2023-11-25,11:05,Nike,Shopping,134.38,Debit Card,Posted
+TXN000270,2023-11-25,10:01,BP,Gas,48.82,Cash,Posted
+TXN000551,2023-11-25,19:20,Costco,Groceries,30.71,Digital Wallet,Posted
+TXN000156,2023-11-26,05:45,Lyft,Transportation,35.79,Cash,Posted
+TXN000283,2023-11-26,03:43,Whole Foods,Groceries,106.54,Debit Card,Posted
+TXN000482,2023-11-26,09:33,Amazon Prime,Entertainment,17.22,Credit Card,Posted
+TXN000298,2023-11-27,04:39,Nike,Shopping,85.1,Digital Wallet,Posted
+TXN000561,2023-11-27,01:45,Subway,Restaurants,41.89,Debit Card,Posted
+TXN000596,2023-11-27,14:47,Amazon,Shopping,237.95,Debit Card,Posted
+TXN000702,2023-11-28,09:59,Nike,Shopping,92.54,Cash,Posted
+TXN000277,2023-11-29,07:34,McDonalds,Restaurants,28.57,Cash,Posted
+TXN000418,2023-11-29,18:29,Walgreens,Healthcare,189.38,Cash,Posted
+TXN000524,2023-11-29,07:18,Landlord,Rent,1659.24,Credit Card,Posted
+TXN000143,2023-11-30,10:08,Property Management,Rent,1864.73,Debit Card,Posted
+TXN000903,2023-12-01,12:12,Chipotle,Restaurants,74.33,Cash,Posted
+TXN000005,2023-12-03,17:50,Netflix,Entertainment,65.9,Cash,Posted
+TXN000271,2023-12-03,04:33,Amazon,Shopping,184.12,Credit Card,Posted
+TXN000196,2023-12-04,15:33,AMC Theaters,Entertainment,92.75,Cash,Posted
+TXN000559,2023-12-05,17:38,Kroger,Groceries,55.44,Credit Card,Posted
+TXN000120,2023-12-06,12:59,Amazon Prime,Entertainment,93.3,Digital Wallet,Posted
+TXN000427,2023-12-06,15:06,Chipotle,Restaurants,52.08,Digital Wallet,Posted
+TXN000626,2023-12-07,06:36,Medical Center,Healthcare,426.07,Digital Wallet,Posted
+TXN000062,2023-12-08,09:54,Shell,Gas,69.46,Digital Wallet,Posted
+TXN000674,2023-12-08,07:32,Whole Foods,Groceries,113.18,Debit Card,Posted
+TXN000254,2023-12-10,22:15,Panera,Restaurants,35.2,Credit Card,Posted
+TXN000670,2023-12-10,19:56,McDonalds,Restaurants,74.18,Credit Card,Posted
+TXN000706,2023-12-10,16:24,Trader Joes,Groceries,52.23,Digital Wallet,Posted
+TXN000251,2023-12-11,14:37,Shell,Gas,31.56,Debit Card,Posted
+TXN000297,2023-12-12,08:35,Electric Company,Utilities,133.45,Digital Wallet,Posted
+TXN000631,2023-12-13,08:36,Netflix,Entertainment,60.68,Cash,Posted
+TXN000050,2023-12-14,22:37,Landlord,Rent,1085.08,Digital Wallet,Posted
+TXN000916,2023-12-14,17:33,Marathon,Gas,45.84,Debit Card,Posted
+TXN000727,2023-12-16,20:12,Costco,Groceries,109.34,Credit Card,Posted
+TXN000228,2023-12-17,03:31,Shell,Gas,55.55,Cash,Posted
+TXN000874,2023-12-17,08:00,Netflix,Entertainment,15.2,Credit Card,Posted
+TXN000325,2023-12-18,10:09,Walmart,Groceries,101.02,Cash,Posted
+TXN000498,2023-12-18,07:01,Panera,Restaurants,66.59,Cash,Posted
+TXN000593,2023-12-18,22:53,Subway,Restaurants,20.52,Credit Card,Posted
+TXN000172,2023-12-20,23:20,Gas Company,Utilities,154.54,Cash,Posted
+TXN000285,2023-12-21,16:31,Medical Center,Healthcare,418.05,Cash,Posted
+TXN000614,2023-12-21,06:01,Best Buy,Shopping,278.85,Digital Wallet,Posted
+TXN000255,2023-12-22,17:56,Marathon,Gas,64.66,Cash,Posted
+TXN000958,2023-12-22,21:12,Costco,Groceries,147.81,Credit Card,Posted
+TXN000655,2023-12-24,14:17,Best Buy,Shopping,43.63,Debit Card,Posted
+TXN000619,2023-12-25,09:45,Costco,Groceries,49.64,Debit Card,Posted
+TXN000213,2023-12-26,16:17,Subway,Restaurants,66.56,Debit Card,Posted
+TXN000443,2023-12-26,09:45,Spotify,Entertainment,79.72,Cash,Posted
+TXN000580,2023-12-26,05:45,Electric Company,Utilities,92.77,Digital Wallet,Posted
+TXN000895,2023-12-26,07:41,Landlord,Rent,1872.31,Credit Card,Posted
+TXN000059,2023-12-27,19:18,Starbucks,Restaurants,56.03,Credit Card,Pending
+TXN000423,2023-12-27,13:49,Uber,Transportation,18.21,Credit Card,Posted
+TXN000723,2023-12-27,12:05,AMC Theaters,Entertainment,11.56,Debit Card,Posted
+TXN000018,2023-12-29,10:50,Landlord,Rent,1700.36,Debit Card,Posted
+TXN000039,2023-12-29,17:44,Trader Joes,Groceries,56.92,Digital Wallet,Posted
+TXN000973,2023-12-29,00:31,Dentist Office,Healthcare,139.04,Cash,Posted
+TXN000487,2023-12-30,05:45,Uber,Transportation,10.37,Digital Wallet,Posted
+TXN000575,2023-12-30,19:36,BP,Gas,60.01,Credit Card,Posted
+TXN000829,2023-12-30,23:24,Macys,Shopping,285.04,Credit Card,Posted
+TXN000242,2023-12-31,22:25,Lyft,Transportation,24.01,Cash,Posted
+TXN000173,2024-01-01,08:53,AMC Theaters,Entertainment,29.07,Cash,Posted
+TXN000669,2024-01-01,18:22,Netflix,Entertainment,48.8,Digital Wallet,Posted
+TXN000073,2024-01-02,23:40,BP,Gas,51.49,Debit Card,Posted
+TXN000278,2024-01-02,22:05,Walmart,Groceries,122.41,Credit Card,Posted
+TXN000777,2024-01-02,00:21,Whole Foods,Groceries,121.14,Credit Card,Posted
+TXN000899,2024-01-03,22:54,Macys,Shopping,180.45,Cash,Posted
+TXN000959,2024-01-03,21:58,Dentist Office,Healthcare,193.5,Debit Card,Posted
+TXN000201,2024-01-04,21:43,Whole Foods,Groceries,64.34,Credit Card,Posted
+TXN000110,2024-01-05,05:28,Starbucks,Restaurants,65.66,Cash,Posted
+TXN000425,2024-01-09,21:28,Trader Joes,Groceries,44.91,Cash,Posted
+TXN000633,2024-01-09,06:43,CVS Pharmacy,Healthcare,120.97,Credit Card,Posted
+TXN000657,2024-01-09,16:16,BP,Gas,34.96,Digital Wallet,Posted
+TXN000860,2024-01-10,14:15,McDonalds,Restaurants,54.32,Digital Wallet,Posted
+TXN000801,2024-01-11,06:33,Internet Provider,Utilities,158.95,Credit Card,Pending
+TXN000398,2024-01-12,00:32,Gym Membership,Subscriptions,9.32,Digital Wallet,Posted
+TXN000080,2024-01-13,03:05,AMC Theaters,Entertainment,28.82,Credit Card,Posted
+TXN000179,2024-01-14,02:11,BP,Gas,42.84,Digital Wallet,Posted
+TXN000979,2024-01-14,16:13,McDonalds,Restaurants,65.08,Credit Card,Posted
+TXN000902,2024-01-15,05:53,AMC Theaters,Entertainment,36.78,Debit Card,Posted
+TXN000390,2024-01-16,00:48,Trader Joes,Groceries,105.46,Cash,Posted
+TXN000178,2024-01-17,15:40,Lyft,Transportation,13.86,Digital Wallet,Posted
+TXN000544,2024-01-17,07:03,Netflix,Entertainment,81.55,Digital Wallet,Posted
+TXN000183,2024-01-18,09:17,Whole Foods,Groceries,81.46,Digital Wallet,Posted
+TXN000617,2024-01-18,16:09,Panera,Restaurants,45.42,Credit Card,Posted
+TXN000728,2024-01-18,19:12,Uber,Transportation,18.89,Credit Card,Posted
+TXN000780,2024-01-18,01:12,Whole Foods,Groceries,120.07,Digital Wallet,Posted
+TXN000060,2024-01-22,02:26,Netflix,Subscriptions,24.17,Digital Wallet,Posted
+TXN000855,2024-01-22,14:24,Landlord,Rent,983.21,Debit Card,Posted
+TXN000037,2024-01-23,20:57,Public Transit,Transportation,37.12,Credit Card,Posted
+TXN000548,2024-01-23,21:58,Adobe,Subscriptions,8.3,Cash,Posted
+TXN000557,2024-01-24,08:15,Best Buy,Shopping,75.11,Digital Wallet,Posted
+TXN000714,2024-01-24,22:03,Walmart,Groceries,74.09,Digital Wallet,Posted
+TXN000950,2024-01-24,14:26,Panera,Restaurants,19.54,Cash,Posted
+TXN000527,2024-01-25,01:26,Chevron,Gas,44.96,Debit Card,Posted
+TXN000395,2024-01-28,00:43,Amazon Prime,Entertainment,87.33,Cash,Posted
+TXN000308,2024-01-29,06:11,Panera,Restaurants,57.02,Debit Card,Posted
+TXN000315,2024-01-29,08:46,Exxon,Gas,56.32,Cash,Posted
+TXN000065,2024-01-31,13:30,Macys,Shopping,255.87,Cash,Posted
+TXN000001,2024-02-01,12:50,Trader Joes,Groceries,92.74,Digital Wallet,Posted
+TXN000726,2024-02-01,02:45,Parking,Transportation,46.15,Digital Wallet,Posted
+TXN000753,2024-02-01,15:05,Costco,Groceries,123.31,Digital Wallet,Posted
+TXN000472,2024-02-02,10:48,Nike,Shopping,233.45,Credit Card,Posted
+TXN000910,2024-02-02,09:06,Amazon Prime,Entertainment,25.81,Digital Wallet,Posted
+TXN000879,2024-02-03,02:08,BP,Gas,41.87,Credit Card,Posted
+TXN000327,2024-02-04,22:11,Whole Foods,Groceries,82.22,Cash,Posted
+TXN000499,2024-02-04,00:14,McDonalds,Restaurants,62.54,Debit Card,Posted
+TXN000541,2024-02-05,03:30,Chevron,Gas,56.03,Cash,Posted
+TXN000685,2024-02-06,04:22,Spotify,Entertainment,48.43,Digital Wallet,Posted
+TXN000185,2024-02-07,20:24,Parking,Transportation,7.47,Digital Wallet,Posted
+TXN000703,2024-02-07,23:17,Electric Company,Utilities,171.42,Digital Wallet,Posted
+TXN000492,2024-02-08,15:25,Shell,Gas,56.01,Cash,Posted
+TXN000552,2024-02-08,04:06,Shell,Gas,49.29,Credit Card,Posted
+TXN000717,2024-02-08,15:50,Amazon,Shopping,223.6,Digital Wallet,Posted
+TXN000861,2024-02-08,02:11,Netflix,Subscriptions,9.54,Cash,Posted
+TXN000905,2024-02-08,16:09,Netflix,Entertainment,82.41,Digital Wallet,Posted
+TXN000106,2024-02-09,05:18,Trader Joes,Groceries,24.49,Credit Card,Posted
+TXN000416,2024-02-09,20:25,Kroger,Groceries,138.2,Cash,Posted
+TXN000463,2024-02-09,02:27,Chipotle,Restaurants,41.4,Cash,Posted
+TXN000131,2024-02-10,11:56,Walmart,Groceries,46.05,Digital Wallet,Posted
+TXN000584,2024-02-11,05:17,Microsoft 365,Subscriptions,29.53,Digital Wallet,Posted
+TXN000758,2024-02-11,12:56,Uber,Transportation,18.81,Digital Wallet,Posted
+TXN000988,2024-02-11,18:00,Kroger,Groceries,120.91,Debit Card,Posted
+TXN000534,2024-02-13,00:11,Walmart,Groceries,93.12,Debit Card,Posted
+TXN000405,2024-02-14,11:01,Best Buy,Shopping,167.35,Debit Card,Posted
+TXN000800,2024-02-14,04:52,Parking,Transportation,6.7,Digital Wallet,Posted
+TXN000989,2024-02-14,01:56,Uber,Transportation,11.5,Digital Wallet,Posted
+TXN000232,2024-02-15,23:35,Walmart,Groceries,75.22,Cash,Posted
+TXN000613,2024-02-15,20:58,Costco,Groceries,129.57,Debit Card,Posted
+TXN000045,2024-02-16,18:36,AMC Theaters,Entertainment,49.47,Cash,Posted
+TXN000409,2024-02-17,05:59,Landlord,Rent,1668.84,Debit Card,Posted
+TXN000404,2024-02-19,03:09,Marathon,Gas,66.37,Digital Wallet,Posted
+TXN000525,2024-02-20,16:16,Best Buy,Shopping,193.76,Digital Wallet,Posted
+TXN000579,2024-02-21,12:47,Subway,Restaurants,58.29,Digital Wallet,Posted
+TXN000815,2024-02-21,22:21,Landlord,Rent,1650.36,Credit Card,Posted
+TXN000797,2024-02-23,17:30,BP,Gas,55.89,Debit Card,Posted
+TXN000966,2024-02-23,23:47,Water Dept,Utilities,198.79,Cash,Posted
+TXN000205,2024-02-24,20:08,Uber,Transportation,12.94,Digital Wallet,Posted
+TXN000041,2024-02-25,09:11,Landlord,Rent,1865.99,Debit Card,Posted
+TXN000628,2024-02-25,02:55,Macys,Shopping,130.75,Cash,Posted
+TXN000965,2024-02-25,05:07,Walmart,Groceries,124.7,Credit Card,Posted
+TXN000359,2024-02-26,13:00,Starbucks,Restaurants,59.27,Cash,Posted
+TXN000566,2024-02-26,05:57,Walmart,Groceries,116.38,Cash,Posted
+TXN000868,2024-02-26,09:42,Amazon Prime,Entertainment,98.99,Credit Card,Pending
+TXN000873,2024-02-26,06:49,Parking,Transportation,16.13,Credit Card,Posted
+TXN000913,2024-02-26,18:54,Netflix,Entertainment,56.52,Credit Card,Posted
+TXN000679,2024-02-27,11:47,Lyft,Transportation,7.54,Digital Wallet,Posted
+TXN000825,2024-02-27,00:27,Target,Shopping,285.05,Digital Wallet,Posted
+TXN000329,2024-02-29,12:55,Kroger,Groceries,51.05,Credit Card,Posted
+TXN000397,2024-02-29,17:03,Exxon,Gas,51.13,Cash,Posted
+TXN000542,2024-02-29,17:56,Shell,Gas,37.65,Credit Card,Posted
+TXN000585,2024-02-29,10:10,McDonalds,Restaurants,21.58,Debit Card,Posted
+TXN000741,2024-02-29,04:18,Walgreens,Healthcare,202.47,Debit Card,Posted
+TXN000262,2024-03-01,14:51,Netflix,Entertainment,59.11,Cash,Posted
+TXN000629,2024-03-03,08:13,Amazon,Shopping,94.11,Digital Wallet,Posted
+TXN000057,2024-03-04,14:38,Nike,Shopping,67.28,Cash,Posted
+TXN000519,2024-03-04,06:35,Subway,Restaurants,22.47,Digital Wallet,Posted
+TXN000121,2024-03-05,00:04,Target,Shopping,177.75,Credit Card,Posted
+TXN000660,2024-03-05,09:29,Spotify,Entertainment,52.64,Debit Card,Posted
+TXN000934,2024-03-05,09:01,Amazon,Shopping,82.53,Cash,Posted
+TXN000588,2024-03-06,21:41,Panera,Restaurants,43.69,Credit Card,Posted
+TXN000016,2024-03-08,22:25,Lyft,Transportation,47.13,Cash,Posted
+TXN000654,2024-03-09,15:42,Adobe,Subscriptions,9.69,Digital Wallet,Pending
+TXN000636,2024-03-10,10:28,Walmart,Groceries,132.08,Digital Wallet,Posted
+TXN000779,2024-03-10,01:03,Spotify,Entertainment,12.53,Cash,Posted
+TXN000154,2024-03-12,21:38,Amazon Prime,Entertainment,12.51,Digital Wallet,Posted
+TXN000356,2024-03-13,05:14,Microsoft 365,Subscriptions,23.8,Credit Card,Posted
+TXN000828,2024-03-13,02:53,Best Buy,Shopping,85.49,Credit Card,Posted
+TXN000838,2024-03-13,08:52,Uber,Transportation,44.12,Digital Wallet,Pending
+TXN000373,2024-03-14,03:17,Exxon,Gas,64.19,Debit Card,Posted
+TXN000480,2024-03-14,12:07,Exxon,Gas,35.4,Cash,Posted
+TXN000775,2024-03-14,14:29,Amazon,Shopping,83.31,Digital Wallet,Posted
+TXN000029,2024-03-15,16:11,Chipotle,Restaurants,46.03,Cash,Posted
+TXN000017,2024-03-16,23:17,Netflix,Subscriptions,22.24,Cash,Posted
+TXN000374,2024-03-17,18:20,Landlord,Rent,800.46,Cash,Posted
+TXN000523,2024-03-17,08:49,Lyft,Transportation,32.77,Digital Wallet,Posted
+TXN000803,2024-03-17,13:01,Adobe,Subscriptions,22.76,Digital Wallet,Posted
+TXN000897,2024-03-17,07:04,Whole Foods,Groceries,37.17,Digital Wallet,Posted
+TXN000747,2024-03-18,03:23,Walgreens,Healthcare,113.02,Credit Card,Posted
+TXN000202,2024-03-19,18:52,Nike,Shopping,178.53,Digital Wallet,Posted
+TXN000563,2024-03-19,16:52,Starbucks,Restaurants,36.48,Cash,Posted
+TXN000600,2024-03-19,08:24,Microsoft 365,Subscriptions,5.17,Digital Wallet,Posted
+TXN000113,2024-03-20,07:39,Nike,Shopping,71.18,Debit Card,Posted
+TXN000931,2024-03-20,20:08,Property Management,Rent,1772.64,Cash,Posted
+TXN000085,2024-03-21,00:03,Medical Center,Healthcare,152.89,Digital Wallet,Posted
+TXN000663,2024-03-21,03:14,Chipotle,Restaurants,21.74,Digital Wallet,Posted
+TXN000434,2024-03-22,17:39,Subway,Restaurants,77.85,Credit Card,Posted
+TXN000081,2024-03-24,19:30,Internet Provider,Utilities,113.08,Digital Wallet,Posted
+TXN000419,2024-03-24,12:32,BP,Gas,56.66,Credit Card,Posted
+TXN000909,2024-03-24,15:37,Whole Foods,Groceries,147.39,Digital Wallet,Posted
+TXN000034,2024-03-26,02:59,Gym Membership,Subscriptions,15.48,Digital Wallet,Posted
+TXN000683,2024-03-26,15:34,Spotify,Entertainment,18.59,Cash,Posted
+TXN000708,2024-03-26,18:17,AMC Theaters,Entertainment,53.2,Cash,Posted
+TXN000209,2024-03-28,10:26,Netflix,Subscriptions,13.25,Debit Card,Posted
+TXN000478,2024-03-29,13:49,Parking,Transportation,28.11,Digital Wallet,Posted
+TXN000148,2024-03-30,22:31,Panera,Restaurants,40.86,Cash,Posted
+TXN000322,2024-03-30,19:00,Amazon Prime,Entertainment,58.04,Digital Wallet,Posted
+TXN000128,2024-03-31,13:00,Amazon,Shopping,252.81,Credit Card,Posted
+TXN000428,2024-03-31,20:18,Chipotle,Restaurants,17.19,Debit Card,Posted
+TXN000691,2024-03-31,13:56,Walmart,Groceries,113.58,Digital Wallet,Posted
+TXN000590,2024-04-01,23:06,Costco,Groceries,141.8,Debit Card,Posted
+TXN000725,2024-04-01,20:02,AMC Theaters,Entertainment,60.76,Debit Card,Posted
+TXN000003,2024-04-02,02:08,Parking,Transportation,15.86,Cash,Posted
+TXN000127,2024-04-02,09:46,AMC Theaters,Entertainment,58.12,Cash,Posted
+TXN000729,2024-04-02,12:02,Public Transit,Transportation,5.21,Digital Wallet,Posted
+TXN000808,2024-04-03,17:23,Whole Foods,Groceries,142.81,Debit Card,Posted
+TXN000153,2024-04-04,09:21,Parking,Transportation,29.66,Cash,Posted
+TXN000167,2024-04-04,02:18,Whole Foods,Groceries,38.29,Digital Wallet,Posted
+TXN000866,2024-04-05,10:57,Kroger,Groceries,128.74,Debit Card,Pending
+TXN000432,2024-04-07,22:33,Walgreens,Healthcare,142.43,Digital Wallet,Posted
+TXN000890,2024-04-10,16:54,Chevron,Gas,56.87,Credit Card,Posted
+TXN000190,2024-04-13,07:05,Dentist Office,Healthcare,232.89,Debit Card,Posted
+TXN000781,2024-04-13,14:19,Netflix,Subscriptions,7.58,Cash,Posted
+TXN000376,2024-04-14,23:54,Gym Membership,Subscriptions,9.09,Credit Card,Posted
+TXN000503,2024-04-14,22:05,Kroger,Groceries,38.28,Digital Wallet,Posted
+TXN000296,2024-04-15,01:48,Macys,Shopping,119.38,Digital Wallet,Posted
+TXN000462,2024-04-15,18:11,Best Buy,Shopping,204.57,Digital Wallet,Posted
+TXN000221,2024-04-17,10:28,Walmart,Groceries,42.82,Digital Wallet,Posted
+TXN000768,2024-04-17,09:38,Walmart,Groceries,131.38,Credit Card,Posted
+TXN000749,2024-04-20,11:32,Gym Membership,Subscriptions,10.75,Debit Card,Posted
+TXN000238,2024-04-21,18:12,Nike,Shopping,224.6,Credit Card,Posted
+TXN000371,2024-04-21,17:24,Gym Membership,Subscriptions,27.24,Debit Card,Posted
+TXN000513,2024-04-21,14:07,Kroger,Groceries,27.9,Cash,Posted
+TXN000705,2024-04-22,00:17,Medical Center,Healthcare,43.35,Digital Wallet,Posted
+TXN000863,2024-04-22,22:05,Whole Foods,Groceries,115.16,Digital Wallet,Posted
+TXN000889,2024-04-22,16:33,Chipotle,Restaurants,75.24,Digital Wallet,Posted
+TXN000852,2024-04-23,10:36,Subway,Restaurants,76.22,Digital Wallet,Posted
+TXN000115,2024-04-24,17:19,Amazon,Shopping,59.96,Debit Card,Posted
+TXN000888,2024-04-25,02:25,Costco,Groceries,43.43,Debit Card,Posted
+TXN000140,2024-04-26,16:19,Parking,Transportation,13.83,Credit Card,Posted
+TXN000033,2024-04-27,14:11,Spotify,Entertainment,82.69,Debit Card,Posted
+TXN000743,2024-04-28,20:02,Whole Foods,Groceries,116.99,Credit Card,Posted
+TXN000762,2024-04-28,07:17,Medical Center,Healthcare,242.33,Digital Wallet,Posted
+TXN000343,2024-04-29,13:44,Best Buy,Shopping,180.55,Digital Wallet,Posted
+TXN000365,2024-05-02,05:44,Target,Shopping,79.36,Debit Card,Posted
+TXN000043,2024-05-03,01:06,McDonalds,Restaurants,34.61,Debit Card,Posted
+TXN000567,2024-05-03,14:19,CVS Pharmacy,Healthcare,58.78,Debit Card,Posted
+TXN000244,2024-05-04,13:57,Walmart,Groceries,24.78,Digital Wallet,Posted
+TXN000733,2024-05-06,09:12,Subway,Restaurants,19.38,Credit Card,Posted
+TXN000194,2024-05-08,10:37,Gas Company,Utilities,69.57,Credit Card,Pending
+TXN000357,2024-05-08,03:49,Chipotle,Restaurants,55.77,Debit Card,Posted
+TXN000936,2024-05-08,17:28,Spotify,Subscriptions,8.99,Cash,Posted
+TXN000225,2024-05-09,18:46,CVS Pharmacy,Healthcare,239.77,Cash,Posted
+TXN000252,2024-05-09,09:33,Exxon,Gas,57.6,Credit Card,Posted
+TXN000745,2024-05-11,02:49,Best Buy,Shopping,174.18,Credit Card,Posted
+TXN000536,2024-05-12,07:17,Netflix,Entertainment,16.89,Digital Wallet,Posted
+TXN000515,2024-05-13,11:10,Subway,Restaurants,67.47,Credit Card,Posted
+TXN000226,2024-05-14,14:11,Marathon,Gas,69.15,Cash,Pending
+TXN000962,2024-05-14,04:37,Gym Membership,Subscriptions,19.92,Cash,Posted
+TXN000191,2024-05-18,08:24,Amazon,Shopping,91.51,Credit Card,Posted
+TXN000293,2024-05-18,16:45,Subway,Restaurants,21.21,Debit Card,Posted
+TXN000853,2024-05-18,03:37,Property Management,Rent,1167.39,Cash,Posted
+TXN000380,2024-05-20,23:53,Medical Center,Healthcare,475.25,Credit Card,Posted
+TXN000447,2024-05-20,21:58,Trader Joes,Groceries,111.78,Digital Wallet,Pending
+TXN000923,2024-05-20,03:36,Microsoft 365,Subscriptions,6.81,Cash,Posted
+TXN000410,2024-05-21,02:58,Water Dept,Utilities,52.48,Digital Wallet,Posted
+TXN000126,2024-05-22,11:58,Uber,Transportation,13.41,Credit Card,Posted
+TXN000344,2024-05-22,07:39,AMC Theaters,Entertainment,66.11,Credit Card,Posted
+TXN000477,2024-05-22,08:31,Property Management,Rent,1225.86,Cash,Posted
+TXN000639,2024-05-22,05:43,Amazon,Shopping,186.62,Credit Card,Posted
+TXN000877,2024-05-23,15:00,McDonalds,Restaurants,32.56,Credit Card,Pending
+TXN000754,2024-05-25,08:06,Landlord,Rent,1311.38,Credit Card,Posted
+TXN000644,2024-05-26,03:09,AMC Theaters,Entertainment,50.37,Debit Card,Posted
+TXN000530,2024-05-30,21:16,Chipotle,Restaurants,68.29,Credit Card,Posted
+TXN000002,2024-05-31,09:58,Water Dept,Utilities,104.76,Cash,Posted
+TXN000299,2024-05-31,00:39,Marathon,Gas,54.43,Cash,Posted
+TXN000433,2024-05-31,02:50,Costco,Groceries,116.96,Digital Wallet,Posted
+TXN000637,2024-05-31,04:54,Landlord,Rent,1411.87,Debit Card,Posted
+TXN000053,2024-06-01,08:31,Trader Joes,Groceries,124.69,Digital Wallet,Posted
+TXN000112,2024-06-01,11:23,McDonalds,Restaurants,36.31,Cash,Posted
+TXN000620,2024-06-03,04:47,Nike,Shopping,26.07,Debit Card,Posted
+TXN000281,2024-06-04,01:53,McDonalds,Restaurants,21.61,Debit Card,Posted
+TXN000964,2024-06-04,03:30,Water Dept,Utilities,69.42,Cash,Posted
+TXN000118,2024-06-05,08:15,Starbucks,Restaurants,29.47,Cash,Posted
+TXN000555,2024-06-05,01:51,Whole Foods,Groceries,102.61,Cash,Posted
+TXN000790,2024-06-05,05:10,Kroger,Groceries,49.61,Cash,Posted
+TXN000632,2024-06-06,18:38,Property Management,Rent,1803.72,Cash,Posted
+TXN000431,2024-06-07,16:21,CVS Pharmacy,Healthcare,162.05,Credit Card,Posted
+TXN000742,2024-06-07,01:22,Whole Foods,Groceries,65.45,Credit Card,Posted
+TXN000624,2024-06-08,02:00,BP,Gas,60.98,Credit Card,Pending
+TXN000765,2024-06-08,01:23,Walmart,Groceries,38.22,Cash,Pending
+TXN000990,2024-06-09,12:14,Microsoft 365,Subscriptions,11.07,Digital Wallet,Posted
+TXN000991,2024-06-09,06:02,Kroger,Groceries,86.25,Cash,Posted
+TXN000750,2024-06-10,05:43,Panera,Restaurants,67.63,Cash,Posted
+TXN000237,2024-06-11,11:28,Subway,Restaurants,45.15,Debit Card,Posted
+TXN000997,2024-06-12,21:20,Macys,Shopping,88.72,Credit Card,Posted
+TXN000286,2024-06-13,23:00,Whole Foods,Groceries,83.0,Debit Card,Posted
+TXN000023,2024-06-15,10:36,Target,Shopping,100.28,Debit Card,Posted
+TXN000724,2024-06-15,00:11,Kroger,Groceries,123.29,Debit Card,Posted
+TXN000922,2024-06-16,00:13,Subway,Restaurants,41.15,Digital Wallet,Posted
+TXN000987,2024-06-16,00:14,Spotify,Subscriptions,5.8,Debit Card,Posted
+TXN000350,2024-06-17,06:05,Trader Joes,Groceries,81.42,Credit Card,Posted
+TXN000601,2024-06-17,10:04,Kroger,Groceries,23.57,Digital Wallet,Posted
+TXN000841,2024-06-18,14:09,Electric Company,Utilities,75.46,Digital Wallet,Posted
+TXN000880,2024-06-20,14:21,Landlord,Rent,1770.42,Cash,Posted
+TXN000264,2024-06-21,04:27,Best Buy,Shopping,153.98,Cash,Posted
+TXN000438,2024-06-21,09:02,Target,Shopping,160.76,Debit Card,Posted
+TXN000077,2024-06-23,15:36,AMC Theaters,Entertainment,70.13,Credit Card,Posted
+TXN000496,2024-06-23,04:29,Whole Foods,Groceries,38.54,Digital Wallet,Posted
+TXN000981,2024-06-23,02:48,Amazon,Shopping,102.45,Cash,Posted
+TXN000984,2024-06-23,10:40,Nike,Shopping,293.15,Credit Card,Posted
+TXN000260,2024-06-24,05:02,Panera,Restaurants,58.64,Cash,Posted
+TXN000599,2024-06-24,04:23,Target,Shopping,232.42,Debit Card,Posted
+TXN000886,2024-06-24,20:48,McDonalds,Restaurants,68.34,Cash,Posted
+TXN000658,2024-06-25,04:35,AMC Theaters,Entertainment,16.19,Cash,Posted
+TXN000545,2024-06-26,00:19,Amazon Prime,Entertainment,60.86,Cash,Posted
+TXN000608,2024-06-26,06:36,Walmart,Groceries,35.17,Credit Card,Posted
+TXN000735,2024-06-26,06:32,Target,Shopping,295.39,Digital Wallet,Posted
+TXN000646,2024-06-29,18:23,Walmart,Groceries,142.07,Cash,Posted
+TXN000558,2024-06-30,13:12,Whole Foods,Groceries,93.23,Digital Wallet,Posted
+TXN000124,2024-07-01,15:10,Panera,Restaurants,17.99,Credit Card,Posted
+TXN000377,2024-07-01,23:16,Starbucks,Restaurants,69.21,Digital Wallet,Posted
+TXN000384,2024-07-01,14:59,Uber,Transportation,42.46,Cash,Posted
+TXN000187,2024-07-03,21:40,Landlord,Rent,1319.14,Credit Card,Posted
+TXN000269,2024-07-03,03:56,Whole Foods,Groceries,80.98,Credit Card,Posted
+TXN000739,2024-07-03,21:33,Water Dept,Utilities,71.07,Debit Card,Posted
+TXN000388,2024-07-04,21:59,Walgreens,Healthcare,67.25,Digital Wallet,Posted
+TXN000983,2024-07-04,00:46,Trader Joes,Groceries,122.04,Cash,Posted
+TXN000318,2024-07-05,17:59,Spotify,Entertainment,79.72,Credit Card,Posted
+TXN000772,2024-07-05,11:16,Landlord,Rent,1575.2,Cash,Posted
+TXN000809,2024-07-06,13:17,Starbucks,Restaurants,24.37,Debit Card,Posted
+TXN000466,2024-07-08,23:17,Shell,Gas,48.53,Debit Card,Posted
+TXN000162,2024-07-09,05:55,Spotify,Entertainment,71.86,Cash,Posted
+TXN000086,2024-07-10,18:33,Amazon,Shopping,226.94,Cash,Posted
+TXN000986,2024-07-10,09:00,Internet Provider,Utilities,183.61,Digital Wallet,Posted
+TXN000214,2024-07-11,21:42,Macys,Shopping,219.47,Credit Card,Posted
+TXN000426,2024-07-13,18:25,McDonalds,Restaurants,75.08,Digital Wallet,Posted
+TXN000748,2024-07-13,09:51,Nike,Shopping,91.76,Cash,Posted
+TXN000798,2024-07-15,04:35,Best Buy,Shopping,109.94,Cash,Posted
+TXN000027,2024-07-16,17:22,Landlord,Rent,1519.81,Cash,Posted
+TXN000969,2024-07-17,06:58,BP,Gas,30.86,Digital Wallet,Posted
+TXN000540,2024-07-19,11:52,Macys,Shopping,44.16,Digital Wallet,Posted
+TXN000907,2024-07-22,03:14,Public Transit,Transportation,19.06,Credit Card,Posted
+TXN000334,2024-07-23,13:41,Nike,Shopping,299.59,Debit Card,Posted
+TXN000400,2024-07-23,10:43,Costco,Groceries,42.29,Digital Wallet,Posted
+TXN000651,2024-07-23,13:11,Kroger,Groceries,79.62,Credit Card,Posted
+TXN000030,2024-07-24,09:23,Trader Joes,Groceries,112.85,Credit Card,Posted
+TXN000387,2024-07-24,13:57,Best Buy,Shopping,272.73,Digital Wallet,Posted
+TXN000761,2024-07-24,17:57,Spotify,Subscriptions,5.79,Debit Card,Posted
+TXN000052,2024-07-25,13:42,Parking,Transportation,43.13,Cash,Posted
+TXN000362,2024-07-25,15:54,Marathon,Gas,33.18,Cash,Posted
+TXN000208,2024-07-26,15:25,Nike,Shopping,289.51,Debit Card,Posted
+TXN000268,2024-07-26,08:38,Walmart,Groceries,121.55,Digital Wallet,Posted
+TXN000786,2024-07-26,03:53,Netflix,Entertainment,18.56,Cash,Posted
+TXN000887,2024-07-26,08:48,Landlord,Rent,1569.56,Digital Wallet,Posted
+TXN000805,2024-07-27,10:18,Netflix,Subscriptions,15.28,Cash,Posted
+TXN000810,2024-07-27,09:07,Landlord,Rent,1397.67,Cash,Posted
+TXN000454,2024-07-28,18:15,Spotify,Subscriptions,20.3,Digital Wallet,Posted
+TXN000618,2024-07-28,16:39,Public Transit,Transportation,43.26,Cash,Posted
+TXN000314,2024-08-01,14:23,Exxon,Gas,43.82,Digital Wallet,Pending
+TXN000751,2024-08-01,09:14,CVS Pharmacy,Healthcare,424.15,Cash,Posted
+TXN000464,2024-08-02,05:55,Trader Joes,Groceries,149.9,Digital Wallet,Posted
+TXN000572,2024-08-02,18:09,Nike,Shopping,227.38,Cash,Pending
+TXN000476,2024-08-03,03:35,Walgreens,Healthcare,383.41,Digital Wallet,Posted
+TXN000769,2024-08-03,00:19,Medical Center,Healthcare,369.29,Cash,Posted
+TXN000881,2024-08-03,20:42,Exxon,Gas,34.32,Debit Card,Posted
+TXN000203,2024-08-04,21:41,Nike,Shopping,117.4,Digital Wallet,Posted
+TXN000123,2024-08-05,04:37,Nike,Shopping,45.48,Cash,Posted
+TXN000736,2024-08-05,19:10,Macys,Shopping,96.84,Digital Wallet,Posted
+TXN000827,2024-08-05,07:27,Marathon,Gas,49.12,Cash,Posted
+TXN000949,2024-08-05,01:40,Public Transit,Transportation,43.14,Credit Card,Posted
+TXN000840,2024-08-06,02:35,Microsoft 365,Subscriptions,13.56,Debit Card,Posted
+TXN000292,2024-08-07,22:29,Panera,Restaurants,50.2,Credit Card,Posted
+TXN000832,2024-08-07,23:11,Electric Company,Utilities,193.74,Credit Card,Posted
+TXN000411,2024-08-09,19:23,CVS Pharmacy,Healthcare,410.79,Cash,Posted
+TXN000510,2024-08-09,05:46,Kroger,Groceries,106.35,Digital Wallet,Posted
+TXN000227,2024-08-12,20:25,AMC Theaters,Entertainment,93.99,Credit Card,Posted
+TXN000836,2024-08-12,11:53,Microsoft 365,Subscriptions,27.53,Digital Wallet,Posted
+TXN001000,2024-08-12,15:24,Macys,Shopping,234.53,Credit Card,Posted
+TXN000147,2024-08-14,00:26,Trader Joes,Groceries,36.98,Debit Card,Posted
+TXN000301,2024-08-15,14:09,Netflix,Subscriptions,17.38,Digital Wallet,Posted
+TXN000665,2024-08-15,10:14,Parking,Transportation,36.19,Cash,Posted
+TXN000165,2024-08-16,03:20,Marathon,Gas,62.83,Credit Card,Posted
+TXN000342,2024-08-16,15:19,Chevron,Gas,49.83,Cash,Posted
+TXN000025,2024-08-17,01:09,Chevron,Gas,64.72,Digital Wallet,Posted
+TXN000280,2024-08-18,22:42,Spotify,Subscriptions,24.73,Credit Card,Posted
+TXN000597,2024-08-18,19:55,Shell,Gas,46.72,Digital Wallet,Posted
+TXN000682,2024-08-18,18:21,Netflix,Subscriptions,25.1,Cash,Posted
+TXN000883,2024-08-18,13:45,Water Dept,Utilities,128.11,Cash,Posted
+TXN000272,2024-08-19,07:49,Property Management,Rent,1917.19,Cash,Posted
+TXN000364,2024-08-19,20:23,McDonalds,Restaurants,77.34,Debit Card,Posted
+TXN000784,2024-08-19,06:59,Whole Foods,Groceries,80.92,Debit Card,Posted
+TXN000450,2024-08-20,06:00,McDonalds,Restaurants,41.12,Credit Card,Posted
+TXN000345,2024-08-21,14:42,Lyft,Transportation,44.44,Credit Card,Posted
+TXN000074,2024-08-22,11:12,Amazon,Shopping,261.82,Digital Wallet,Posted
+TXN000677,2024-08-24,09:25,Starbucks,Restaurants,45.38,Debit Card,Posted
+TXN000940,2024-08-24,13:42,Whole Foods,Groceries,109.45,Digital Wallet,Posted
+TXN000009,2024-08-25,16:15,Landlord,Rent,1265.34,Digital Wallet,Posted
+TXN000610,2024-08-25,05:40,Best Buy,Shopping,275.22,Credit Card,Posted
+TXN000568,2024-08-26,22:49,Lyft,Transportation,12.64,Credit Card,Posted
+TXN000788,2024-08-26,11:42,Lyft,Transportation,10.12,Debit Card,Posted
+TXN000594,2024-08-27,15:44,Target,Shopping,102.35,Cash,Posted
+TXN000240,2024-08-28,11:57,Kroger,Groceries,148.8,Cash,Posted
+TXN000275,2024-08-28,06:04,Spotify,Entertainment,45.27,Debit Card,Posted
+TXN000311,2024-08-28,22:25,Uber,Transportation,35.48,Digital Wallet,Posted
+TXN000489,2024-08-30,04:41,Adobe,Subscriptions,25.28,Debit Card,Posted
+TXN000686,2024-08-30,19:58,Walmart,Groceries,66.84,Digital Wallet,Posted
+TXN000638,2024-08-31,09:24,Uber,Transportation,24.91,Digital Wallet,Posted
+TXN000939,2024-08-31,05:07,Spotify,Entertainment,32.23,Credit Card,Pending
+TXN000042,2024-09-01,00:31,Exxon,Gas,34.97,Cash,Posted
+TXN000379,2024-09-01,11:45,Walgreens,Healthcare,236.38,Cash,Posted
+TXN000446,2024-09-01,05:24,Gym Membership,Subscriptions,10.75,Digital Wallet,Posted
+TXN000720,2024-09-03,21:09,Property Management,Rent,1076.2,Credit Card,Posted
+TXN000917,2024-09-03,09:21,Subway,Restaurants,45.27,Cash,Posted
+TXN000273,2024-09-04,12:16,Panera,Restaurants,63.74,Credit Card,Posted
+TXN000481,2024-09-04,06:21,Nike,Shopping,54.95,Credit Card,Posted
+TXN000537,2024-09-04,23:02,Walmart,Groceries,123.8,Digital Wallet,Posted
+TXN000547,2024-09-04,06:56,Walmart,Groceries,77.38,Digital Wallet,Posted
+TXN000947,2024-09-04,15:00,AMC Theaters,Entertainment,25.25,Credit Card,Posted
+TXN000604,2024-09-06,06:56,Chevron,Gas,58.24,Digital Wallet,Posted
+TXN000509,2024-09-07,13:16,Gym Membership,Subscriptions,17.63,Cash,Posted
+TXN000710,2024-09-08,07:21,Netflix,Entertainment,50.39,Digital Wallet,Posted
+TXN000114,2024-09-10,16:20,Gym Membership,Subscriptions,24.99,Digital Wallet,Posted
+TXN000063,2024-09-11,23:14,Walmart,Groceries,50.8,Digital Wallet,Posted
+TXN000623,2024-09-11,01:50,Public Transit,Transportation,5.21,Digital Wallet,Posted
+TXN000026,2024-09-12,13:59,Shell,Gas,34.57,Credit Card,Posted
+TXN000289,2024-09-13,14:59,Chevron,Gas,35.02,Cash,Posted
+TXN000111,2024-09-14,19:52,Subway,Restaurants,18.34,Debit Card,Posted
+TXN000122,2024-09-15,12:07,Gas Company,Utilities,111.37,Digital Wallet,Posted
+TXN000549,2024-09-16,18:23,Trader Joes,Groceries,53.35,Debit Card,Posted
+TXN000924,2024-09-17,02:21,Trader Joes,Groceries,24.26,Debit Card,Posted
+TXN000024,2024-09-18,16:31,Parking,Transportation,45.65,Credit Card,Pending
+TXN000569,2024-09-19,01:12,Costco,Groceries,74.64,Credit Card,Posted
+TXN000267,2024-09-20,06:19,Netflix,Entertainment,95.71,Credit Card,Posted
+TXN000730,2024-09-21,18:04,Starbucks,Restaurants,37.94,Cash,Posted
+TXN000554,2024-09-22,17:26,Netflix,Subscriptions,6.16,Digital Wallet,Posted
+TXN000667,2024-09-22,06:27,Kroger,Groceries,67.62,Credit Card,Posted
+TXN000145,2024-09-24,06:47,CVS Pharmacy,Healthcare,362.48,Debit Card,Posted
+TXN000430,2024-09-25,15:46,Target,Shopping,293.9,Debit Card,Posted
+TXN000483,2024-09-25,09:43,Walgreens,Healthcare,214.45,Credit Card,Posted
+TXN000435,2024-09-26,05:56,Adobe,Subscriptions,26.98,Debit Card,Posted
+TXN000647,2024-09-26,16:17,Adobe,Subscriptions,27.2,Cash,Posted
+TXN000738,2024-09-26,11:41,Kroger,Groceries,130.49,Digital Wallet,Posted
+TXN000099,2024-09-27,03:03,Adobe,Subscriptions,25.02,Digital Wallet,Posted
+TXN000928,2024-09-27,05:39,BP,Gas,50.45,Digital Wallet,Posted
+TXN000782,2024-09-28,07:49,Water Dept,Utilities,87.07,Digital Wallet,Posted
+TXN000101,2024-09-29,19:22,Uber,Transportation,29.98,Cash,Posted
+TXN000176,2024-09-29,16:47,Water Dept,Utilities,63.62,Cash,Posted
+TXN000189,2024-09-29,13:46,Property Management,Rent,868.09,Cash,Posted
+TXN000532,2024-09-29,23:28,Property Management,Rent,859.38,Debit Card,Posted
+TXN000975,2024-09-29,02:42,CVS Pharmacy,Healthcare,440.52,Cash,Posted
+TXN000556,2024-09-30,11:08,Dentist Office,Healthcare,300.55,Cash,Posted
+TXN000302,2024-10-02,20:23,CVS Pharmacy,Healthcare,102.96,Credit Card,Posted
+TXN000132,2024-10-03,07:10,Water Dept,Utilities,154.19,Debit Card,Posted
+TXN000755,2024-10-03,00:03,Trader Joes,Groceries,20.78,Credit Card,Posted
+TXN000078,2024-10-04,16:12,Chevron,Gas,31.18,Digital Wallet,Posted
+TXN000056,2024-10-05,03:10,Starbucks,Restaurants,57.0,Credit Card,Posted
+TXN000715,2024-10-05,05:52,Amazon,Shopping,57.98,Cash,Posted
+TXN000068,2024-10-06,14:15,Walgreens,Healthcare,90.12,Credit Card,Posted
+TXN000642,2024-10-06,10:58,Whole Foods,Groceries,71.78,Digital Wallet,Posted
+TXN000867,2024-10-06,22:09,CVS Pharmacy,Healthcare,271.81,Digital Wallet,Posted
+TXN000040,2024-10-07,01:14,Nike,Shopping,251.0,Debit Card,Posted
+TXN000522,2024-10-07,03:43,Medical Center,Healthcare,366.77,Credit Card,Posted
+TXN000713,2024-10-09,04:40,Lyft,Transportation,49.81,Credit Card,Posted
+TXN000402,2024-10-10,20:41,Kroger,Groceries,44.56,Digital Wallet,Posted
+TXN000076,2024-10-11,21:11,Netflix,Entertainment,17.91,Credit Card,Posted
+TXN000246,2024-10-11,14:36,Amazon,Shopping,231.96,Cash,Posted
+TXN000337,2024-10-11,22:07,McDonalds,Restaurants,53.53,Credit Card,Posted
+TXN000504,2024-10-11,05:35,Property Management,Rent,1932.87,Cash,Posted
+TXN000104,2024-10-12,22:38,Best Buy,Shopping,69.93,Cash,Posted
+TXN000668,2024-10-12,05:29,McDonalds,Restaurants,16.1,Cash,Posted
+TXN000709,2024-10-12,08:58,Panera,Restaurants,23.49,Credit Card,Posted
+TXN000844,2024-10-12,06:56,Walmart,Groceries,46.13,Debit Card,Posted
+TXN000363,2024-10-13,16:54,Netflix,Subscriptions,28.64,Debit Card,Posted
+TXN000699,2024-10-13,05:16,McDonalds,Restaurants,41.6,Cash,Posted
+TXN000858,2024-10-13,15:01,Netflix,Entertainment,96.42,Cash,Posted
+TXN000953,2024-10-13,19:17,Nike,Shopping,243.58,Credit Card,Posted
+TXN000980,2024-10-13,11:49,Landlord,Rent,1523.25,Cash,Posted
+TXN000048,2024-10-14,14:26,Starbucks,Restaurants,43.92,Cash,Posted
+TXN000219,2024-10-14,09:19,Shell,Gas,40.22,Cash,Posted
+TXN000181,2024-10-15,22:21,Landlord,Rent,1502.72,Debit Card,Pending
+TXN000022,2024-10-16,05:12,Spotify,Entertainment,64.49,Digital Wallet,Posted
+TXN000785,2024-10-16,00:09,Property Management,Rent,967.97,Digital Wallet,Posted
+TXN000036,2024-10-17,13:03,Target,Shopping,25.51,Credit Card,Posted
+TXN000458,2024-10-17,02:36,Target,Shopping,153.83,Debit Card,Posted
+TXN000766,2024-10-18,00:22,Macys,Shopping,56.01,Cash,Posted
+TXN000846,2024-10-21,16:10,Landlord,Rent,1391.22,Cash,Posted
+TXN000891,2024-10-21,00:57,Exxon,Gas,64.12,Debit Card,Posted
+TXN000577,2024-10-22,02:18,Subway,Restaurants,19.45,Credit Card,Posted
+TXN000851,2024-10-22,09:35,Electric Company,Utilities,50.48,Digital Wallet,Pending
+TXN000824,2024-10-23,17:22,Subway,Restaurants,50.37,Digital Wallet,Posted
+TXN000141,2024-10-24,04:32,Macys,Shopping,293.75,Credit Card,Posted
+TXN000408,2024-10-24,12:59,Nike,Shopping,97.7,Credit Card,Posted
+TXN000807,2024-10-26,18:39,Starbucks,Restaurants,56.8,Digital Wallet,Posted
+TXN000491,2024-10-28,12:30,Gym Membership,Subscriptions,6.29,Digital Wallet,Posted
+TXN000602,2024-10-28,10:41,Trader Joes,Groceries,145.4,Debit Card,Posted
+TXN000516,2024-10-29,12:39,Shell,Gas,52.55,Credit Card,Posted
+TXN000760,2024-10-29,03:44,Target,Shopping,107.29,Cash,Posted
+TXN000789,2024-10-30,09:36,Walmart,Groceries,53.15,Credit Card,Posted
+TXN000731,2024-11-01,19:43,Nike,Shopping,184.98,Cash,Posted
+TXN000839,2024-11-01,15:23,Target,Shopping,196.04,Debit Card,Posted
+TXN000930,2024-11-03,01:57,Trader Joes,Groceries,100.22,Debit Card,Posted
+TXN000711,2024-11-04,07:52,Amazon,Shopping,236.3,Cash,Posted
+TXN000505,2024-11-05,19:32,Panera,Restaurants,73.01,Cash,Posted
+TXN000843,2024-11-05,10:45,Nike,Shopping,206.49,Credit Card,Posted
+TXN000469,2024-11-06,02:56,Target,Shopping,163.54,Digital Wallet,Posted
+TXN000102,2024-11-07,18:01,Public Transit,Transportation,35.03,Debit Card,Posted
+TXN000616,2024-11-07,03:49,Nike,Shopping,259.35,Debit Card,Posted
+TXN000864,2024-11-07,08:49,Chipotle,Restaurants,41.11,Debit Card,Posted
+TXN000248,2024-11-08,04:18,Target,Shopping,68.04,Credit Card,Posted
+TXN000333,2024-11-08,02:38,Gas Company,Utilities,95.81,Digital Wallet,Posted
+TXN000535,2024-11-08,15:36,Costco,Groceries,95.79,Digital Wallet,Posted
+TXN000712,2024-11-09,09:18,Whole Foods,Groceries,90.69,Cash,Posted
+TXN000518,2024-11-10,12:21,Exxon,Gas,34.17,Cash,Posted
+TXN000107,2024-11-11,19:09,Trader Joes,Groceries,37.95,Digital Wallet,Pending
+TXN000186,2024-11-11,08:14,Trader Joes,Groceries,68.74,Digital Wallet,Posted
+TXN000473,2024-11-11,00:19,Dentist Office,Healthcare,458.65,Digital Wallet,Posted
+TXN000439,2024-11-12,04:55,Whole Foods,Groceries,82.91,Credit Card,Posted
+TXN000627,2024-11-12,21:49,Chipotle,Restaurants,39.67,Debit Card,Posted
+TXN000869,2024-11-12,01:36,Subway,Restaurants,45.05,Cash,Posted
+TXN000399,2024-11-13,05:50,McDonalds,Restaurants,62.49,Credit Card,Posted
+TXN000926,2024-11-14,15:11,Water Dept,Utilities,54.4,Cash,Posted
+TXN000441,2024-11-15,22:39,Walgreens,Healthcare,329.41,Credit Card,Posted
+TXN000335,2024-11-16,01:34,Kroger,Groceries,64.23,Debit Card,Posted
+TXN000935,2024-11-16,08:26,Starbucks,Restaurants,71.97,Credit Card,Posted
+TXN000015,2024-11-17,05:50,Internet Provider,Utilities,94.25,Digital Wallet,Posted
+TXN000445,2024-11-17,12:34,Starbucks,Restaurants,22.29,Debit Card,Posted
+TXN000643,2024-11-17,20:00,Kroger,Groceries,88.71,Cash,Posted
+TXN000217,2024-11-18,16:02,Trader Joes,Groceries,79.45,Credit Card,Posted
+TXN000560,2024-11-18,06:37,Subway,Restaurants,41.88,Digital Wallet,Posted
+TXN000265,2024-11-20,17:10,Netflix,Subscriptions,29.36,Debit Card,Posted
+TXN000393,2024-11-20,22:00,Lyft,Transportation,13.2,Cash,Posted
+TXN000943,2024-11-22,19:02,Exxon,Gas,43.79,Debit Card,Posted
+TXN000737,2024-11-23,15:04,Best Buy,Shopping,144.8,Digital Wallet,Posted
+TXN000833,2024-11-23,11:41,CVS Pharmacy,Healthcare,426.0,Credit Card,Pending
+TXN000641,2024-11-24,10:17,Panera,Restaurants,27.94,Cash,Pending
+TXN000967,2024-11-25,08:52,McDonalds,Restaurants,26.97,Digital Wallet,Posted
+TXN000038,2024-11-27,17:37,Amazon Prime,Entertainment,51.52,Cash,Posted
+TXN000571,2024-11-27,04:12,Gas Company,Utilities,199.19,Cash,Posted
+TXN000349,2024-11-29,06:43,Costco,Groceries,77.48,Debit Card,Pending
+TXN000850,2024-11-29,16:21,Property Management,Rent,1436.37,Cash,Posted
+TXN000180,2024-12-01,16:15,Netflix,Entertainment,20.38,Cash,Posted
+TXN000835,2024-12-01,04:39,Starbucks,Restaurants,53.47,Credit Card,Posted
+TXN000381,2024-12-02,11:34,Exxon,Gas,69.49,Digital Wallet,Posted
+TXN000475,2024-12-03,22:18,Amazon Prime,Entertainment,68.56,Digital Wallet,Posted
+TXN000093,2024-12-04,12:41,Walgreens,Healthcare,481.64,Debit Card,Posted
+TXN000138,2024-12-04,08:54,Nike,Shopping,206.65,Debit Card,Posted
+TXN000150,2024-12-04,14:18,Electric Company,Utilities,66.87,Digital Wallet,Posted
+TXN000135,2024-12-06,15:16,Costco,Groceries,132.14,Digital Wallet,Posted
+TXN000287,2024-12-06,15:28,Kroger,Groceries,72.42,Credit Card,Posted
+TXN000341,2024-12-06,01:44,AMC Theaters,Entertainment,28.09,Cash,Posted
+TXN000794,2024-12-06,01:37,Amazon Prime,Entertainment,13.86,Credit Card,Posted
+TXN000583,2024-12-08,18:52,Kroger,Groceries,148.13,Digital Wallet,Posted
+TXN000826,2024-12-08,21:00,Whole Foods,Groceries,145.57,Digital Wallet,Posted
+TXN000338,2024-12-09,08:12,Spotify,Subscriptions,29.47,Debit Card,Posted
+TXN000587,2024-12-09,10:35,Medical Center,Healthcare,58.21,Digital Wallet,Posted
+TXN000816,2024-12-09,17:33,Macys,Shopping,239.77,Cash,Posted
+TXN000245,2024-12-10,15:21,Trader Joes,Groceries,31.84,Credit Card,Posted
+TXN000218,2024-12-12,07:20,Exxon,Gas,67.6,Debit Card,Posted
+TXN000092,2024-12-13,10:58,Public Transit,Transportation,39.37,Debit Card,Posted
