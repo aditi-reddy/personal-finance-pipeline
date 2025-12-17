@@ -245,4 +245,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Status:** 🚧 Active Development | Last Updated: December 2024
+**Status:** 🚧 Active Development | Last Updated: December 2025
