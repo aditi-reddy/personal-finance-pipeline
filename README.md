@@ -78,7 +78,7 @@ personal-finance-pipeline/
 
 ## 🚀 Current Progress
 
-### ✅ Phase 1: Data Generation (Completed - Dec 2024)
+### ✅ Phase 1: Data Generation (Completed - Nov 2025)
 
 **What I Built:**
 - Synthetic transaction data generator using Python
@@ -105,13 +105,41 @@ personal-finance-pipeline/
 
 ---
 
-## 📈 Next Steps
+### ✅ Phase 2: AWS Infrastructure Setup (Completed - Dec 2025)
 
-### Phase 2: AWS Infrastructure Setup (In Progress)
-- Set up AWS account and IAM roles
-- Create S3 buckets (raw, processed, archive layers)
-- Implement folder partitioning strategy
-- Configure security policies
+**What I Built:**
+- AWS Free Tier account with billing alerts configured
+- Medallion architecture: 3 S3 buckets (Bronze/Silver/Gold layers)
+- Uploaded 1,000 transaction records (70.1 KB) to cloud storage
+- Implemented Hive-style date partitioning (year=YYYY/month=MM)
+- Created IAM user with least-privilege access policies
+
+**Key Features:**
+- **S3 Buckets:** 
+  - Bronze: aditi-finance-bronze-raw-2025 (raw data layer)
+  - Silver: aditi-finance-silver-processed-2025 (processed data)
+  - Gold: aditi-finance-gold-analytics-2025 (analytics-ready)
+- **Data Partitioning:** year=2023/month=01/ structure for efficient queries
+- **Security:** IAM policies, S3 encryption at rest, no public access
+- **Cost Management:** Zero spend budget alerts, Free Tier monitoring
+
+**Technical Implementation:**
+- Configured S3 versioning for data recovery
+- Enabled server-side encryption (SSE-S3)
+- Created IAM user with S3FullAccess and CloudWatchReadOnly policies
+- Implemented industry-standard medallion data lake architecture
+
+**AWS Architecture:**
+```
+Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
+              ↓                    ↓                        ↓
+          Partition by         ETL Processing         Ready for BI
+          year/month          (Coming Week 3)         (Coming Week 6)
+```
+
+**Cost:** $0.00 (within Free Tier limits)
+
+## 📈 Next Steps
 
 ### Phase 3: ETL Pipeline Development
 - Build AWS Glue jobs for data transformation
