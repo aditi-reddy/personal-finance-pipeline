@@ -67,7 +67,9 @@ personal-finance-pipeline/
 ├── data_generation/
 │   └── generate_transactions.py  # Synthetic data generator
 │
-├── etl/                          # Coming soon
+├── data_transformation/
+│   └── bronze_to_silver.py       # PySpark ETL script
+│
 ├── data_quality/                 # Coming soon
 ├── sql/                          # Coming soon
 ├── dashboards/                   # Coming soon
@@ -78,7 +80,7 @@ personal-finance-pipeline/
 
 ## 🚀 Current Progress
 
-### ✅ Phase 1: Data Generation (Completed - Nov 2025)
+### ✅ Phase 1: Data Generation (Completed - Dec 2024)
 
 **What I Built:**
 - Synthetic transaction data generator using Python
@@ -105,7 +107,7 @@ personal-finance-pipeline/
 
 ---
 
-### ✅ Phase 2: AWS Infrastructure Setup (Completed - Dec 2025)
+### ✅ Phase 2: AWS Infrastructure Setup (Completed - Dec 2024)
 
 **What I Built:**
 - AWS Free Tier account with billing alerts configured
@@ -139,13 +141,56 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 
 **Cost:** $0.00 (within Free Tier limits)
 
-## 📈 Next Steps
+---
 
-### Phase 3: ETL Pipeline Development
-- Build AWS Glue jobs for data transformation
-- Implement data cleaning and validation
-- Create incremental loading logic
-- Add error handling and logging
+### ✅ Phase 3: ETL Pipeline Development (Completed - Jan 2026)
+
+**What I Built:**
+- AWS Glue ETL job using PySpark
+- Data cleaning and validation pipeline
+- Bronze → Silver layer transformation
+- Automated data quality checks
+- Parquet file format with compression
+
+**Key Features:**
+- **Data Cleaning:**
+  - Removed duplicate transactions based on transaction_id
+  - Handled missing values in critical fields
+  - Fixed data type issues (amount to double, date to date type)
+  - Validated amount ranges (removed amounts ≤ $0)
+  
+- **Data Validation:**
+  - Category whitelist validation (10 allowed categories)
+  - Payment method verification (4 allowed methods)
+  - Date format standardization (yyyy-MM-dd)
+  - Removed invalid/corrupted records
+
+- **Data Enrichment:**
+  - Added `day_of_week` column (1-7)
+  - Added `month_name` column (January, February, etc.)
+  - Added `year` and `month` columns for partitioning
+  - Added `is_weekend` flag (boolean)
+  - Standardized merchant names (lowercase, trimmed)
+
+- **Technical Implementation:**
+  - PySpark DataFrame transformations
+  - Parquet file format (columnar, compressed) - 80% smaller than CSV
+  - Partitioned by year/month for query optimization
+  - AWS Glue Data Catalog integration
+  - IAM role with Glue, S3, and CloudWatch permissions
+
+**Data Quality:**
+- Input: 1,000 records (Bronze layer, CSV format)
+- Output: ~995-1000 records (Silver layer, Parquet format)
+- Quality rate: 99.5%+
+- Processing time: ~1-2 minutes
+- File size reduction: 70 KB → ~12 KB (83% compression)
+
+**Cost:** ~$0.10 per ETL job run
+
+---
+
+## 📈 Next Steps
 
 ### Phase 4: Data Quality Framework
 - Set up Great Expectations
@@ -175,6 +220,19 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 - **Git Workflow:** Setting up version control and pushing code to GitHub
 - **Data Quality:** Ensuring generated data follows business rules and constraints
 
+### Week 2 Learnings:
+- **Cloud Architecture:** Medallion architecture (Bronze/Silver/Gold) for data lakes
+- **AWS S3:** Object storage, versioning, encryption, and partitioning strategies
+- **IAM Security:** Least-privilege access, role-based permissions
+- **Cost Management:** Free Tier limits, billing alerts, resource optimization
+
+### Week 3 Learnings:
+- **ETL Fundamentals:** Extract, Transform, Load patterns and best practices
+- **PySpark:** Distributed data processing with DataFrames and transformations
+- **AWS Glue:** Managed ETL service, Data Catalog, and job orchestration
+- **Data Formats:** CSV vs Parquet - columnar storage and compression benefits
+- **Data Quality:** Validation rules, null handling, duplicate removal
+
 ---
 
 ## 🎓 Skills Demonstrated
@@ -182,21 +240,29 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 - [x] Python Programming
 - [x] Data Generation & Simulation
 - [x] Git Version Control
-- [ ] AWS Cloud Services
-- [ ] ETL Pipeline Development
+- [x] AWS Cloud Services (S3, IAM, Glue)
+- [x] ETL Pipeline Development
+- [x] PySpark & Distributed Processing
+- [x] Data Lake Architecture
 - [ ] Data Quality Engineering
 - [ ] SQL & Data Modeling
 - [ ] Data Visualization
-- [ ] Data Security & Privacy
+- [ ] Data Warehousing
 
 ---
 
 ## 📊 Sample Data
+
+**Bronze Layer (CSV):**
 ```csv
 transaction_id,date,time,merchant,category,amount,payment_method,status
 TXN000239,2023-01-01,05:11,Walmart,Groceries,57.57,Debit Card,Posted
 TXN000957,2023-01-02,21:10,Public Transit,Transportation,28.98,Debit Card,Posted
-TXN000247,2023-01-04,08:23,Walmart,Groceries,119.44,Debit Card,Posted
+```
+
+**Silver Layer (Parquet - enriched):**
+```
+transaction_id, date, merchant, category, amount, year, month, month_name, day_of_week, is_weekend
 ```
 
 ---
@@ -205,6 +271,7 @@ TXN000247,2023-01-04,08:23,Walmart,Groceries,119.44,Debit Card,Posted
 
 ### Prerequisites
 - Python 3.12+
+- AWS Account with Glue access
 - Git
 
 ### Setup Instructions
@@ -221,22 +288,22 @@ cd data_generation
 python generate_transactions.py
 ```
 
-3. **View the generated data:**
-```bash
-cd ..
-head data/transactions.csv
-```
+3. **Run ETL pipeline:**
+- Upload `data_transformation/bronze_to_silver.py` to S3
+- Create AWS Glue job pointing to the script
+- Configure IAM role with necessary permissions
+- Run the job from AWS Glue console
 
 ---
 
 ## 📝 Documentation
 
-Detailed documentation for each phase will be added as the project progresses:
-- Architecture diagrams
-- Data dictionary
-- ETL process flows
-- Setup guides
-- Lessons learned
+Detailed documentation for each phase:
+- ✅ Data generation process
+- ✅ AWS infrastructure setup
+- ✅ ETL pipeline architecture
+- Coming: Data quality framework
+- Coming: Data warehouse design
 
 ---
 
@@ -252,12 +319,12 @@ Detailed documentation for each phase will be added as the project progresses:
 ## 📌 Project Timeline
 
 - **Week 1 (Dec 2024):** ✅ Data generation complete
-- **Week 2-3:** AWS infrastructure setup
-- **Week 4-5:** ETL pipeline development
-- **Week 6-7:** Data quality framework
-- **Week 8-9:** Data warehouse implementation
-- **Week 10-11:** Dashboard development
-- **Week 12:** Documentation & final polish
+- **Week 2 (Dec 2024):** ✅ AWS infrastructure setup complete
+- **Week 3 (Jan 2026):** ✅ ETL pipeline development complete
+- **Week 4:** Data quality framework
+- **Week 5-6:** Data warehouse implementation
+- **Week 7-8:** Dashboard development
+- **Week 9:** Documentation & final polish
 
 ---
 
@@ -273,4 +340,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Status:** 🚧 Active Development | Last Updated: December 2025
+**Status:** 🚧 Active Development | Last Updated: January 2026
