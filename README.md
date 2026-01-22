@@ -45,6 +45,7 @@ Building a production-grade personal finance analytics platform that demonstrate
 
 **Data Quality & Testing:**
 - Great Expectations
+- Pandas validation
 - Unit testing (pytest)
 
 **Visualization:**
@@ -62,18 +63,23 @@ personal-finance-pipeline/
 │
 ├── README.md
 ├── data/
-│   └── transactions.csv          # Generated transaction data
+│   ├── transactions.csv              # Original generated data
+│   └── silver_transactions.parquet   # Processed data from ETL
 │
 ├── data_generation/
-│   └── generate_transactions.py  # Synthetic data generator
+│   └── generate_transactions.py      # Synthetic data generator
 │
 ├── data_transformation/
-│   └── bronze_to_silver.py       # PySpark ETL script
+│   └── bronze_to_silver.py           # PySpark ETL script
 │
-├── data_quality/                 # Coming soon
-├── sql/                          # Coming soon
-├── dashboards/                   # Coming soon
-└── docs/                         # Coming soon
+├── data_quality/
+│   ├── setup_gx.py                   # Great Expectations setup
+│   ├── download_silver_data.py       # Download data from S3
+│   └── create_expectations.py        # Quality validation script
+│
+├── sql/                              # Coming soon
+├── dashboards/                       # Coming soon
+└── docs/                             # Coming soon
 ```
 
 ---
@@ -190,25 +196,93 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 
 ---
 
+### ✅ Phase 4: Data Quality Framework (Completed - Jan 2026)
+
+**What I Built:**
+- Automated data quality validation framework
+- 10+ quality checks covering completeness, uniqueness, validity, and statistics
+- Python-based validation scripts with detailed reporting
+- Data quality scoring system (0-100%)
+
+**Key Features:**
+- **Completeness Checks:**
+  - Validated all required fields (transaction_id, date, merchant, amount)
+  - Zero null values in critical columns
+  
+- **Uniqueness Checks:**
+  - Transaction ID uniqueness validation
+  - Zero duplicate records detected
+
+- **Validity Checks:**
+  - Amount range validation ($0.01 - $10,000)
+  - Category whitelist (10 allowed categories)
+  - Payment method validation (4 allowed methods)
+  - All records passed validation
+
+- **Statistical Checks:**
+  - Average transaction: $162.44
+  - Amount range: $5.73 - $1,819.03
+  - Row count validation: 42 records
+  - Category distribution analysis
+
+**Technical Implementation:**
+- Great Expectations framework setup
+- Pandas-based data validation
+- Automated quality scoring algorithm
+- Category distribution analysis
+- Null value detection
+- Duplicate identification
+- AWS CLI integration for S3 data access
+
+**Data Quality Results:**
+- **Quality Score: 100.00%**
+- Records validated: 42
+- Issues found: 0
+- Clean records: 42 (100%)
+- All validation checks: PASSED ✅
+
+**Category Breakdown:**
+- Groceries: 10 transactions
+- Restaurants: 7 transactions
+- Subscriptions: 6 transactions
+- Entertainment: 5 transactions
+- Transportation: 4 transactions
+- Shopping: 4 transactions
+- Gas: 3 transactions
+- Rent: 2 transactions
+- Healthcare: 1 transaction
+
+**Cost:** $0.00 (runs locally)
+
+---
+
 ## 📈 Next Steps
 
-### Phase 4: Data Quality Framework
-- Set up Great Expectations
-- Define expectation suites
-- Create automated quality reports
-- Implement data validation checks
-
-### Phase 5: Data Warehouse
+### Phase 5-6: Data Warehouse
 - Design star schema
 - Set up Redshift cluster
 - Optimize with sort/dist keys
 - Load and validate data
 
-### Phase 6: Analytics & Visualization
-- Build Tableau dashboards
+### Phase 7-8: SQL Analytics
+- Write complex analytical queries
+- Create aggregate tables
+- Build reporting views
+
+### Phase 9: Pipeline Orchestration
+- Automate entire workflow
+- Set up scheduling
+- Add monitoring and alerts
+
+### Phase 10: Tableau Dashboards
+- Build interactive visualizations
 - Create spending analytics
 - Implement budget tracking
-- Develop predictive insights
+
+### Phase 11-12: Web Application
+- Build React frontend
+- Create interactive UI
+- Deploy final product
 
 ---
 
@@ -233,6 +307,13 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 - **Data Formats:** CSV vs Parquet - columnar storage and compression benefits
 - **Data Quality:** Validation rules, null handling, duplicate removal
 
+### Week 4 Learnings:
+- **Data Quality Framework:** Building automated validation systems
+- **Great Expectations:** Industry-standard data quality tool
+- **Quality Dimensions:** Completeness, uniqueness, validity, consistency
+- **Validation Automation:** Running checks on every data pipeline execution
+- **Quality Scoring:** Quantifying data health with metrics
+
 ---
 
 ## 🎓 Skills Demonstrated
@@ -244,10 +325,13 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 - [x] ETL Pipeline Development
 - [x] PySpark & Distributed Processing
 - [x] Data Lake Architecture
-- [ ] Data Quality Engineering
+- [x] Data Quality Engineering
+- [x] Great Expectations Framework
+- [x] AWS CLI Configuration
 - [ ] SQL & Data Modeling
-- [ ] Data Visualization
-- [ ] Data Warehousing
+- [ ] Data Warehousing (Redshift)
+- [ ] Data Visualization (Tableau)
+- [ ] Web Development (React)
 
 ---
 
@@ -272,6 +356,7 @@ transaction_id, date, merchant, category, amount, year, month, month_name, day_o
 ### Prerequisites
 - Python 3.12+
 - AWS Account with Glue access
+- AWS CLI configured
 - Git
 
 ### Setup Instructions
@@ -294,6 +379,13 @@ python generate_transactions.py
 - Configure IAM role with necessary permissions
 - Run the job from AWS Glue console
 
+4. **Run data quality checks:**
+```bash
+cd data_quality
+python download_silver_data.py  # Download processed data
+python create_expectations.py    # Run quality validation
+```
+
 ---
 
 ## 📝 Documentation
@@ -302,8 +394,9 @@ Detailed documentation for each phase:
 - ✅ Data generation process
 - ✅ AWS infrastructure setup
 - ✅ ETL pipeline architecture
-- Coming: Data quality framework
+- ✅ Data quality framework
 - Coming: Data warehouse design
+- Coming: SQL analytics queries
 
 ---
 
@@ -321,10 +414,12 @@ Detailed documentation for each phase:
 - **Week 1 (Dec 2024):** ✅ Data generation complete
 - **Week 2 (Dec 2024):** ✅ AWS infrastructure setup complete
 - **Week 3 (Jan 2026):** ✅ ETL pipeline development complete
-- **Week 4:** Data quality framework
+- **Week 4 (Jan 2026):** ✅ Data quality framework complete
 - **Week 5-6:** Data warehouse implementation
-- **Week 7-8:** Dashboard development
-- **Week 9:** Documentation & final polish
+- **Week 7-8:** SQL analytics & queries
+- **Week 9:** Pipeline orchestration
+- **Week 10:** Tableau dashboards
+- **Week 11-12:** React web application
 
 ---
 
@@ -340,4 +435,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Status:** 🚧 Active Development | Last Updated: January 2026
+**Status:** 🚧 Active Development | Last Updated: January 2026 | 33% Complete (4/12 weeks)
