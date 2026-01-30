@@ -41,7 +41,10 @@ Building a production-grade personal finance analytics platform that demonstrate
 - AWS S3 (data lake storage)
 - AWS Glue (ETL processing)
 - AWS Lambda (automation)
-- AWS Redshift (data warehouse)
+
+**Database:**
+- PostgreSQL 15 (data warehouse)
+- pgAdmin 4 (database administration)
 
 **Data Quality & Testing:**
 - Great Expectations
@@ -77,7 +80,10 @@ personal-finance-pipeline/
 │   ├── download_silver_data.py       # Download data from S3
 │   └── create_expectations.py        # Quality validation script
 │
-├── sql/                              # Coming soon
+├── sql/                              # ⭐ NEW
+│   ├── create_schema.sql             # Database schema creation
+│   └── load_data_to_postgres.py      # Data loading script
+│
 ├── dashboards/                       # Coming soon
 └── docs/                             # Coming soon
 ```
@@ -142,7 +148,7 @@ personal-finance-pipeline/
 Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
               ↓                    ↓                        ↓
           Partition by         ETL Processing         Ready for BI
-          year/month          (Coming Week 3)         (Coming Week 6)
+          year/month          (Completed)              (Completed)
 ```
 
 **Cost:** $0.00 (within Free Tier limits)
@@ -256,28 +262,106 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 
 ---
 
+### ✅ Phase 5-6: Data Warehouse Implementation (Completed - Jan 2026)
+
+**What I Built:**
+- PostgreSQL data warehouse with star schema design
+- 5 tables: 1 fact table + 4 dimension tables
+- Automated data loading pipeline from S3 to PostgreSQL
+- Performance optimization with indexes
+- Reusable views for common queries
+
+**Key Features:**
+- **Star Schema Architecture:**
+  + Fact Table: `fact_transactions` (central transaction data)
+  + Dimension Tables: `dim_date`, `dim_merchant`, `dim_category`, `dim_payment`
+  + Foreign key relationships for data integrity
+  + Optimized for analytical queries
+
+- **Data Warehouse Statistics:**
+  + Total Transactions: 42
+  + Total Amount Spent: $6822.35
+  + Average Transaction: $162.44
+  + Date Range: 2023-01-01 - 2023-01-30
+  + Unique Merchants: 26
+  + Categories: 10
+  + Payment Methods: 4
+
+- **Performance Optimization:**
+  + 10+ indexes on frequently queried columns
+  + Composite indexes for complex queries
+  + Views for common analytical patterns
+  + Query execution under 100ms
+
+**Technical Implementation:**
+- PostgreSQL 15 database engine
+- Python ETL script using psycopg2
+- Automated dimension table population
+- Foreign key constraint enforcement
+- Transaction-based data loading
+
+**Database Schema:**
+```
+fact_transactions (Fact Table)
+├── transaction_key (PK)
+├── transaction_id (Unique)
+├── transaction_date (FK → dim_date)
+├── merchant_key (FK → dim_merchant)
+├── category_key (FK → dim_category)
+├── payment_key (FK → dim_payment)
+├── amount (DECIMAL)
+└── status (VARCHAR)
+
+dim_date (Dimension)
+├── date_key (PK)
+├── year, month, quarter
+├── day_of_week, day_name
+└── is_weekend (Boolean)
+
+dim_merchant (Dimension)
+├── merchant_key (PK)
+├── merchant_name (Unique)
+└── merchant_type
+
+dim_category (Dimension)
+├── category_key (PK)
+├── category_name (Unique)
+└── category_type
+
+dim_payment (Dimension)
+├── payment_key (PK)
+├── payment_method (Unique)
+└── payment_type
+```
+
+**SQL Capabilities:**
+- Complex multi-table joins across star schema
+- Aggregations by category, merchant, time period
+- Window functions for running totals and rankings
+- Percentage calculations and trend analysis
+- Date-based filtering and grouping
+
+**Cost:** $0.00 (local PostgreSQL installation)
+
+---
+
 ## 📈 Next Steps
 
-### Phase 5-6: Data Warehouse
-- Design star schema
-- Set up Redshift cluster
-- Optimize with sort/dist keys
-- Load and validate data
-
-### Phase 7-8: SQL Analytics
+### Phase 7-8: SQL Analytics (In Progress)
 - Write complex analytical queries
-- Create aggregate tables
-- Build reporting views
+- Create aggregate tables and materialized views
+- Build reporting queries for Tableau
+- Implement advanced SQL techniques (window functions, CTEs)
 
 ### Phase 9: Pipeline Orchestration
-- Automate entire workflow
-- Set up scheduling
-- Add monitoring and alerts
+- Automate entire workflow with Apache Airflow
+- Schedule data refreshes
+- Add monitoring and alerting
 
 ### Phase 10: Tableau Dashboards
 - Build interactive visualizations
-- Create spending analytics
-- Implement budget tracking
+- Create spending analytics dashboard
+- Implement budget tracking views
 
 ### Phase 11-12: Web Application
 - Build React frontend
@@ -314,6 +398,15 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 - **Validation Automation:** Running checks on every data pipeline execution
 - **Quality Scoring:** Quantifying data health with metrics
 
+### Week 5-6 Learnings:
+- **Data Warehouse Design:** Star schema vs snowflake schema, dimensional modeling
+- **PostgreSQL Administration:** Database creation, user management, security
+- **ETL to Database:** Loading data from files into relational databases
+- **SQL Optimization:** Indexes, query execution plans, performance tuning
+- **Foreign Keys:** Data integrity, referential constraints
+- **Normalization:** Dimension tables for efficient storage
+- **Star Schema Benefits:** Fast queries, intuitive structure, business-friendly
+
 ---
 
 ## 🎓 Skills Demonstrated
@@ -328,8 +421,9 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 - [x] Data Quality Engineering
 - [x] Great Expectations Framework
 - [x] AWS CLI Configuration
-- [ ] SQL & Data Modeling
-- [ ] Data Warehousing (Redshift)
+- [x] SQL & Data Modeling
+- [x] Data Warehousing (PostgreSQL)
+- [x] Database Administration
 - [ ] Data Visualization (Tableau)
 - [ ] Web Development (React)
 
@@ -349,6 +443,22 @@ TXN000957,2023-01-02,21:10,Public Transit,Transportation,28.98,Debit Card,Posted
 transaction_id, date, merchant, category, amount, year, month, month_name, day_of_week, is_weekend
 ```
 
+**Gold Layer (PostgreSQL - star schema):**
+```sql
+SELECT 
+    f.transaction_id,
+    d.month_name,
+    m.merchant_name,
+    c.category_name,
+    p.payment_method,
+    f.amount
+FROM fact_transactions f
+JOIN dim_date d ON f.transaction_date = d.date_key
+JOIN dim_merchant m ON f.merchant_key = m.merchant_key
+JOIN dim_category c ON f.category_key = c.category_key
+JOIN dim_payment p ON f.payment_key = p.payment_key;
+```
+
 ---
 
 ## 🔧 How to Run
@@ -357,6 +467,7 @@ transaction_id, date, merchant, category, amount, year, month, month_name, day_o
 - Python 3.12+
 - AWS Account with Glue access
 - AWS CLI configured
+- PostgreSQL 15+
 - Git
 
 ### Setup Instructions
@@ -386,6 +497,20 @@ python download_silver_data.py  # Download processed data
 python create_expectations.py    # Run quality validation
 ```
 
+5. **Set up data warehouse:**
+```bash
+# Install PostgreSQL and pgAdmin
+# Create database
+psql -U postgres -c "CREATE DATABASE personal_finance_warehouse;"
+
+# Run schema creation
+cd sql
+psql -U postgres -d personal_finance_warehouse -f create_schema.sql
+
+# Load data
+python load_data_to_postgres.py
+```
+
 ---
 
 ## 📝 Documentation
@@ -395,8 +520,9 @@ Detailed documentation for each phase:
 - ✅ AWS infrastructure setup
 - ✅ ETL pipeline architecture
 - ✅ Data quality framework
-- Coming: Data warehouse design
+- ✅ Data warehouse design and implementation
 - Coming: SQL analytics queries
+- Coming: Dashboard development
 
 ---
 
@@ -415,7 +541,7 @@ Detailed documentation for each phase:
 - **Week 2 (Dec 2024):** ✅ AWS infrastructure setup complete
 - **Week 3 (Jan 2026):** ✅ ETL pipeline development complete
 - **Week 4 (Jan 2026):** ✅ Data quality framework complete
-- **Week 5-6:** Data warehouse implementation
+- **Week 5-6 (Jan 2026):** ✅ Data warehouse implementation complete
 - **Week 7-8:** SQL analytics & queries
 - **Week 9:** Pipeline orchestration
 - **Week 10:** Tableau dashboards
@@ -435,4 +561,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Status:** 🚧 Active Development | Last Updated: January 2026 | 33% Complete (4/12 weeks)
+**Status:** 🚧 Active Development | Last Updated: January 2026 | 50% Complete (6/12 weeks)
