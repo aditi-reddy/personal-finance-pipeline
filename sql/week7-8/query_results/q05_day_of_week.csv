@@ -1,0 +1,8 @@
+"day_of_week_name","day_of_week","is_weekend","transaction_count","total_spent","avg_transaction"
+"Sunday   ","0",True,"6","515.47","85.91"
+"Monday   ","1",False,"8","2537.85","317.23"
+"Tuesday  ","2",False,"4","214.95","53.74"
+"Wednesday","3",False,"8","628.03","78.50"
+"Thursday ","4",False,"6","617.69","102.95"
+"Friday   ","5",False,"6","287.19","47.87"
+"Saturday ","6",True,"4","2021.17","505.29"

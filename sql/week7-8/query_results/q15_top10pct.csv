@@ -1,0 +1,6 @@
+"transaction_date","merchant_name","category_name","amount","p90_threshold"
+"2023-01-14","Property Management","Rent","1819.03","263.29"
+"2023-01-09","Property Management","Rent","1674.95","263.29"
+"2023-01-12","Dentist Office","Healthcare","309.39","263.29"
+"2023-01-23","Best Buy","Shopping","286.83","263.29"
+"2023-01-30","Macys","Shopping","266.13","263.29"
