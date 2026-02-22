@@ -1,0 +1,17 @@
+{"timestamp":"2026-02-22T02:16:50.413749Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T02:16:50.553196Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T02:16:50.553521Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T02:16:50.687094Z","level":"warning","event":"The SLA feature is removed in Airflow 3.0, replaced with Deadline Alerts in >=3.1","category":"UserWarning","filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":191,"logger":"py.warnings"}
+{"timestamp":"2026-02-22T02:16:50.699872Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.699937Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.700213Z","level":"info","event":"Current task name:track_pipeline_run","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.700235Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.700884Z","level":"info","event":"📝 Tracking pipeline run metadata...","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.784126Z","level":"info","event":"✅ Pipeline run tracked: manual__2026-02-22T02:16:40.108568+00:00","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.784208Z","level":"info","event":"   Rows processed: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.784310Z","level":"info","event":"   Rows loaded: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.784337Z","level":"info","event":"   Total in table: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.784282Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T02:16:50.791769Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.791845Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:16:50.792128Z","level":"info","event":"Task operator:<Task(PythonOperator): track_pipeline_run>","logger":"task.stdout"}

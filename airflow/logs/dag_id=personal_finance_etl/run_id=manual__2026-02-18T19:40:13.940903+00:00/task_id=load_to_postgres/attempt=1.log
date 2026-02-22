@@ -1,0 +1,118 @@
+{"timestamp":"2026-02-18T19:40:19.227065Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-18T19:40:19.342352Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T19:40:19.342634Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T19:40:19.472478Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.472538Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.472809Z","level":"info","event":"Current task name:load_to_postgres","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.472831Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.473391Z","level":"info","event":"📤 Starting PostgreSQL load...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.475569Z","level":"info","event":"📊 Loading 1000 rows to PostgreSQL","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.585422Z","level":"info","event":"🗄️  Creating staging table...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.597270Z","level":"info","event":"✅ Staging table created","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.597316Z","level":"info","event":"📥 Inserting data...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.605189Z","level":"info","event":"  Loaded 10/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.606112Z","level":"info","event":"  Loaded 20/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.607036Z","level":"info","event":"  Loaded 30/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.607960Z","level":"info","event":"  Loaded 40/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.608858Z","level":"info","event":"  Loaded 50/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.609762Z","level":"info","event":"  Loaded 60/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.610661Z","level":"info","event":"  Loaded 70/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.611683Z","level":"info","event":"  Loaded 80/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.612555Z","level":"info","event":"  Loaded 90/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.613336Z","level":"info","event":"  Loaded 100/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.614231Z","level":"info","event":"  Loaded 110/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.615018Z","level":"info","event":"  Loaded 120/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.615794Z","level":"info","event":"  Loaded 130/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.616550Z","level":"info","event":"  Loaded 140/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.617342Z","level":"info","event":"  Loaded 150/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.618118Z","level":"info","event":"  Loaded 160/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.618968Z","level":"info","event":"  Loaded 170/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.619812Z","level":"info","event":"  Loaded 180/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.620637Z","level":"info","event":"  Loaded 190/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.621472Z","level":"info","event":"  Loaded 200/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.622355Z","level":"info","event":"  Loaded 210/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.623157Z","level":"info","event":"  Loaded 220/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.623949Z","level":"info","event":"  Loaded 230/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.624768Z","level":"info","event":"  Loaded 240/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.625590Z","level":"info","event":"  Loaded 250/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.626418Z","level":"info","event":"  Loaded 260/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.627292Z","level":"info","event":"  Loaded 270/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.628166Z","level":"info","event":"  Loaded 280/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.629086Z","level":"info","event":"  Loaded 290/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.629855Z","level":"info","event":"  Loaded 300/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.630656Z","level":"info","event":"  Loaded 310/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.631324Z","level":"info","event":"  Loaded 320/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.631982Z","level":"info","event":"  Loaded 330/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.632602Z","level":"info","event":"  Loaded 340/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.633263Z","level":"info","event":"  Loaded 350/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.633880Z","level":"info","event":"  Loaded 360/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.634454Z","level":"info","event":"  Loaded 370/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.635057Z","level":"info","event":"  Loaded 380/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.635652Z","level":"info","event":"  Loaded 390/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.636224Z","level":"info","event":"  Loaded 400/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.636786Z","level":"info","event":"  Loaded 410/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.637376Z","level":"info","event":"  Loaded 420/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.637974Z","level":"info","event":"  Loaded 430/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.638572Z","level":"info","event":"  Loaded 440/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.639133Z","level":"info","event":"  Loaded 450/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.639668Z","level":"info","event":"  Loaded 460/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.640231Z","level":"info","event":"  Loaded 470/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.640923Z","level":"info","event":"  Loaded 480/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.641531Z","level":"info","event":"  Loaded 490/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.642113Z","level":"info","event":"  Loaded 500/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.642706Z","level":"info","event":"  Loaded 510/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.643270Z","level":"info","event":"  Loaded 520/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.643834Z","level":"info","event":"  Loaded 530/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.644434Z","level":"info","event":"  Loaded 540/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.644991Z","level":"info","event":"  Loaded 550/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.645586Z","level":"info","event":"  Loaded 560/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.646154Z","level":"info","event":"  Loaded 570/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.646749Z","level":"info","event":"  Loaded 580/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.647321Z","level":"info","event":"  Loaded 590/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.647875Z","level":"info","event":"  Loaded 600/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.648448Z","level":"info","event":"  Loaded 610/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.649027Z","level":"info","event":"  Loaded 620/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.649591Z","level":"info","event":"  Loaded 630/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.650187Z","level":"info","event":"  Loaded 640/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.650734Z","level":"info","event":"  Loaded 650/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.651291Z","level":"info","event":"  Loaded 660/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.651867Z","level":"info","event":"  Loaded 670/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.652467Z","level":"info","event":"  Loaded 680/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.653053Z","level":"info","event":"  Loaded 690/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.653627Z","level":"info","event":"  Loaded 700/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.654200Z","level":"info","event":"  Loaded 710/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.654765Z","level":"info","event":"  Loaded 720/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.655295Z","level":"info","event":"  Loaded 730/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.655899Z","level":"info","event":"  Loaded 740/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.656471Z","level":"info","event":"  Loaded 750/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.657010Z","level":"info","event":"  Loaded 760/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.657570Z","level":"info","event":"  Loaded 770/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.658141Z","level":"info","event":"  Loaded 780/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.658712Z","level":"info","event":"  Loaded 790/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.659248Z","level":"info","event":"  Loaded 800/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.659812Z","level":"info","event":"  Loaded 810/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.660375Z","level":"info","event":"  Loaded 820/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.660933Z","level":"info","event":"  Loaded 830/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.661527Z","level":"info","event":"  Loaded 840/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.662107Z","level":"info","event":"  Loaded 850/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.662663Z","level":"info","event":"  Loaded 860/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.663205Z","level":"info","event":"  Loaded 870/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.663745Z","level":"info","event":"  Loaded 880/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.664322Z","level":"info","event":"  Loaded 890/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.664857Z","level":"info","event":"  Loaded 900/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.665460Z","level":"info","event":"  Loaded 910/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.666013Z","level":"info","event":"  Loaded 920/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.666598Z","level":"info","event":"  Loaded 930/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.667185Z","level":"info","event":"  Loaded 940/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.667744Z","level":"info","event":"  Loaded 950/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.668322Z","level":"info","event":"  Loaded 960/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.668915Z","level":"info","event":"  Loaded 970/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.669476Z","level":"info","event":"  Loaded 980/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.670061Z","level":"info","event":"  Loaded 990/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.670637Z","level":"info","event":"  Loaded 1000/1000 rows...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.675923Z","level":"info","event":"✅ Successfully loaded 1000 rows to staging_transactions","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.680030Z","level":"info","event":"Done. Returned value was: 1000","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-18T19:40:19.680126Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c7244-7102-785b-893a-580cbf5f91f1'), task_id='load_to_postgres', dag_id='personal_finance_etl', run_id='manual__2026-02-18T19:40:13.940903+00:00', try_number=1, dag_version_id=UUID('019c722c-77ef-7705-a4ed-70e9d301d09d'), map_index=-1, hostname='138-229-58-45-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): load_to_postgres>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2026, 2, 18, 19, 40, 18, 920484, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-18T19:40:19.687112Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.687172Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:40:19.687478Z","level":"info","event":"Task operator:<Task(PythonOperator): load_to_postgres>","logger":"task.stdout"}

@@ -1,0 +1,22 @@
+{"timestamp":"2026-02-18T20:18:04.045049Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-18T20:18:04.170476Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T20:18:04.170710Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T20:18:04.306414Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.306468Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.306678Z","level":"info","event":"Current task name:validate_data","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.306698Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.307159Z","level":"info","event":"🔍 Starting data quality validation...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312078Z","level":"info","event":"📊 Data Quality Report:","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312113Z","level":"info","event":"==================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312133Z","level":"info","event":"✅ total_rows: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312178Z","level":"info","event":"✅ total_columns: 8","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312195Z","level":"info","event":"✅ null_values: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312210Z","level":"info","event":"✅ duplicate_rows: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312224Z","level":"info","event":"✅ negative_amounts: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312238Z","level":"info","event":"==================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.312251Z","level":"info","event":"✅ Data validation passed!","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.315246Z","level":"info","event":"Done. Returned value was: {'total_rows': 1000, 'total_columns': 8, 'null_values': 0, 'duplicate_rows': 0, 'negative_amounts': 0}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-18T20:18:04.315317Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c7267-0a6a-77dc-b31e-efd486644bcb'), task_id='validate_data', dag_id='personal_finance_etl', run_id='scheduled__2026-02-18T20:18:00+00:00', try_number=1, dag_version_id=UUID('019c7266-3aee-7e70-a2a4-64af5e6160ae'), map_index=-1, hostname='138-229-58-45-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): validate_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2026, 2, 18, 20, 18, 3, 800940, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-18T20:18:04.321995Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.322044Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-18T20:18:04.322303Z","level":"info","event":"Task operator:<Task(PythonOperator): validate_data>","logger":"task.stdout"}

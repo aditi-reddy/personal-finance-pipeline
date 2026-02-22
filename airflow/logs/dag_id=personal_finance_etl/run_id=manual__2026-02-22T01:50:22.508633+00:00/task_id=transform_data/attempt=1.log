@@ -1,0 +1,27 @@
+{"timestamp":"2026-02-22T01:50:28.163292Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:50:28.300831Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:50:28.301095Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:50:28.415366Z","level":"warning","event":"The SLA feature is removed in Airflow 3.0, replaced with Deadline Alerts in >=3.1","category":"UserWarning","filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":191,"logger":"py.warnings"}
+{"timestamp":"2026-02-22T01:50:28.428830Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.428891Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.429144Z","level":"info","event":"Current task name:transform_data","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.429163Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.429789Z","level":"info","event":"🔄 Starting data transformation...","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.431559Z","level":"info","event":"📊 Loaded 1000 rows for transformation","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.436672Z","level":"info","event":"✅ Transformations applied:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.436693Z","level":"info","event":"  - transaction_date (parsed)","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.436709Z","level":"info","event":"  - year, month, day_of_week","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.436725Z","level":"info","event":"  - week_of_year","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.436740Z","level":"info","event":"  - processed_timestamp","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.440850Z","level":"info","event":"💾 Transformed data saved to: /tmp/airflow_transactions_transformed.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.440869Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.440885Z","level":"info","event":"📊 Sample of transformed data:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.442266Z","level":"info","event":"  transaction_id        date   time     merchant        category  amount  payment_method   status transaction_date  year  month  day_of_week  week_of_year        processed_timestamp","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.442292Z","level":"info","event":"0      TXN000018  2023-01-01  04:20      Netflix   Entertainment   97.80            Cash   Posted       2023-01-01  2023      1            6            52 2026-02-21 20:50:28.436171","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.442308Z","level":"info","event":"1      TXN000003  2023-01-02  19:31         Lyft  Transportation   39.26            Cash  Pending       2023-01-02  2023      1            0             1 2026-02-21 20:50:28.436171","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.442322Z","level":"info","event":"2      TXN000227  2023-01-03  18:19  Trader Joes       Groceries  125.91  Digital Wallet   Posted       2023-01-03  2023      1            1             1 2026-02-21 20:50:28.436171","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.449293Z","level":"info","event":"Done. Returned value was: /tmp/airflow_transactions_transformed.csv","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:50:28.449389Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c830a-653f-7eee-a783-97cdc54ffb92'), task_id='transform_data', dag_id='personal_finance_etl', run_id='manual__2026-02-22T01:50:22.508633+00:00', try_number=1, dag_version_id=UUID('019c82eb-5030-7d5b-96b5-52f3d0f6e793'), map_index=-1, hostname='138-229-50-88-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): transform_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2026, 2, 22, 1, 50, 27, 862915, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-22T01:50:28.456160Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.456223Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:50:28.456494Z","level":"info","event":"Task operator:<Task(PythonOperator): transform_data>","logger":"task.stdout"}

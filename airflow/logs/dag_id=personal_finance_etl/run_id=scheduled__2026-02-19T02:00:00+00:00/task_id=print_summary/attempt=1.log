@@ -1,0 +1,29 @@
+{"timestamp":"2026-02-19T02:36:32.517187Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-19T02:36:32.648756Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-19T02:36:32.649620Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-19T02:36:32.835317Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.835378Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.835713Z","level":"info","event":"Current task name:print_summary","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.835734Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.836475Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.836495Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.836512Z","level":"info","event":"📊 PIPELINE EXECUTION SUMMARY","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.836529Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860015Z","level":"info","event":"🔄 Run Type: SCHEDULED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860079Z","level":"info","event":"📥 Downloaded Rows: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860099Z","level":"info","event":"✅ Validation: PASSED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860115Z","level":"info","event":"   - Null values: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860130Z","level":"info","event":"   - Duplicates: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860169Z","level":"info","event":"🔄 Transformed: 1000 rows","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860186Z","level":"info","event":"📤 Loaded to PostgreSQL: 1000 rows","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860201Z","level":"info","event":"⏱️  Pipeline Run ID: scheduled__2026-02-19T02:00:00+00:00","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860216Z","level":"info","event":"📅 Run Date: 2026-02-19 02:14:43.074836+00:00","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860231Z","level":"info","event":"⏰ Schedule: Daily at 2:00 AM","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860248Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860262Z","level":"info","event":"✅ ETL PIPELINE COMPLETED SUCCESSFULLY! 🎉","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860276Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860291Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.860208Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-19T02:36:32.864497Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.864546Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:32.864833Z","level":"info","event":"Task operator:<Task(PythonOperator): print_summary>","logger":"task.stdout"}

@@ -1,0 +1,32 @@
+{"timestamp":"2026-02-22T01:22:59.677083Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:22:59.801903Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:22:59.802157Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:22:59.935395Z","level":"warning","event":"The SLA feature is removed in Airflow 3.0, replaced with Deadline Alerts in >=3.1","category":"UserWarning","filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":191,"logger":"py.warnings"}
+{"timestamp":"2026-02-22T01:22:59.945531Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.945588Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.945894Z","level":"info","event":"Current task name:print_summary","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.945917Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.946585Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.946605Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.946622Z","level":"info","event":"📊 PIPELINE EXECUTION SUMMARY","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.946639Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954563Z","level":"info","event":"🔄 Run Type: MANUAL","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954610Z","level":"info","event":"📥 Downloaded Rows: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954630Z","level":"info","event":"✅ Validation: PASSED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954647Z","level":"info","event":"   - Null values: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954662Z","level":"info","event":"   - Duplicates: 0","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954702Z","level":"info","event":"🔄 Transformed: 1000 rows","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954719Z","level":"info","event":"📤 Loaded to PostgreSQL: 1000 rows","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954734Z","level":"info","event":"⏱️  Pipeline Run ID: manual__2026-02-22T01:22:51.594957+00:00","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954750Z","level":"info","event":"📅 Run Date: 2026-02-22 01:22:53.015512+00:00","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954765Z","level":"info","event":"⏰ Schedule: Daily at 2:00 AM","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954779Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954795Z","level":"info","event":"✅ ETL PIPELINE COMPLETED SUCCESSFULLY! 🎉","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954810Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954825Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.954723Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:22:59.959042Z","level":"info","event":"✅ Task print_summary completed successfully!","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.959087Z","level":"error","event":"Failed to run task callback","kind":"on_success_callback","index":0,"callback":"<function task_success_callback at 0x167e76e80>","logger":"task","filename":"task_runner.py","lineno":1334,"error_detail":[{"exc_type":"KeyError","exc_value":"'execution_date'","exc_notes":[],"syntax_error":null,"is_cause":false,"frames":[{"filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/sdk/execution_time/task_runner.py","lineno":1332,"name":"_run_task_state_change_callbacks"},{"filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/sdk/execution_time/callback_runner.py","lineno":82,"name":"run"},{"filename":"/Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","lineno":93,"name":"task_success_callback"}],"is_group":false,"exceptions":[]}]}
+{"timestamp":"2026-02-22T01:22:59.959274Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.959293Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:59.959514Z","level":"info","event":"Task operator:<Task(PythonOperator): print_summary>","logger":"task.stdout"}

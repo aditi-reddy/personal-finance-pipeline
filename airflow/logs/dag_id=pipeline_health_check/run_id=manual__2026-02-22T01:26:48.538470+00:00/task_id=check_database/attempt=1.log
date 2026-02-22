@@ -1,0 +1,13 @@
+{"timestamp":"2026-02-22T01:26:50.754863Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:26:51.316076Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:26:51.316562Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/pipeline_health_check.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:26:51.378806Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.379701Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.379956Z","level":"info","event":"Current task name:check_database","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.380006Z","level":"info","event":"Dag name:pipeline_health_check","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.542956Z","level":"info","event":"✅ Database connection: OK","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.542240Z","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:26:51.542545Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c82f4-d1f4-7df2-b80a-ac44a26c8d8e'), task_id='check_database', dag_id='pipeline_health_check', run_id='manual__2026-02-22T01:26:48.538470+00:00', try_number=1, dag_version_id=UUID('019c82f3-f2c4-73a0-976f-a72bdc6a5241'), map_index=-1, hostname='138-229-50-88-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): check_database>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2026, 2, 22, 1, 26, 49, 395241, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-22T01:26:51.709954Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.710266Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:51.711503Z","level":"info","event":"Task operator:<Task(PythonOperator): check_database>","logger":"task.stdout"}

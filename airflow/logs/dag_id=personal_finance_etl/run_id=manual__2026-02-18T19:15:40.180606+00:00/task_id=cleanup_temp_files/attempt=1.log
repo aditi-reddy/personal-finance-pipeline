@@ -1,0 +1,16 @@
+{"timestamp":"2026-02-18T19:35:12.596467Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-18T19:35:12.731280Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T19:35:12.731639Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T19:35:12.886346Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.886418Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.886733Z","level":"info","event":"Current task name:cleanup_temp_files","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.886759Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.887460Z","level":"info","event":"🧹 Cleaning up temporary files...","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.887555Z","level":"info","event":"🗑️  Deleted: /tmp/airflow_transactions.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.887641Z","level":"info","event":"🗑️  Deleted: /tmp/airflow_transactions_transformed.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.887662Z","level":"info","event":"✅ Cleanup complete! Deleted 2 files","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.887800Z","level":"info","event":"Done. Returned value was: 2","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-18T19:35:12.887887Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c7236-3506-7304-890e-b6017c75f65a'), task_id='cleanup_temp_files', dag_id='personal_finance_etl', run_id='manual__2026-02-18T19:15:40.180606+00:00', try_number=1, dag_version_id=UUID('019c722c-77ef-7705-a4ed-70e9d301d09d'), map_index=-1, hostname='138-229-58-45-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): cleanup_temp_files>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2026, 2, 18, 19, 35, 12, 332534, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-18T19:35:12.897143Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.897211Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-18T19:35:12.897561Z","level":"info","event":"Task operator:<Task(PythonOperator): cleanup_temp_files>","logger":"task.stdout"}

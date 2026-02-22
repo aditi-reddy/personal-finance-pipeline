@@ -1,0 +1,28 @@
+{"timestamp":"2026-02-22T02:17:04.774228Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T02:17:04.978961Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T02:17:04.979986Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/idempotency_test.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T02:17:05.040857Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.041056Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.041445Z","level":"info","event":"Current task name:test_idempotency","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.041469Z","level":"info","event":"Dag name:idempotency_test","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.102400Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.102476Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.102501Z","level":"info","event":"🧪 IDEMPOTENCY TEST","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.102521Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.103909Z","level":"info","event":"✅ PASSED: No duplicate transaction IDs found","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.105073Z","level":"info","event":"⚠️  WARNING: No PRIMARY KEY constraint found","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.107471Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.107503Z","level":"info","event":"📊 Table Statistics:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.107523Z","level":"info","event":"   Total rows: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.107540Z","level":"info","event":"   Unique IDs: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.107556Z","level":"info","event":"   Match: ✅ YES","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.108120Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.108139Z","level":"info","event":"📜 Recent Pipeline Runs:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.108217Z","level":"info","event":"   2026-02-21 21:16:41.396070: Loaded 0 rows, Total 1000 - success","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.108235Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.108251Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.108370Z","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T02:17:05.108719Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c8322-d3d6-7d8d-815c-741a8ab6534c'), task_id='test_idempotency', dag_id='idempotency_test', run_id='manual__2026-02-22T02:17:03.688003+00:00', try_number=1, dag_version_id=UUID('019c831f-ef94-7033-8d60-a239ecee7fa3'), map_index=-1, hostname='138-229-50-88-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): test_idempotency>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2026, 2, 22, 2, 17, 4, 212457, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-22T02:17:05.122567Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.122656Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:17:05.122935Z","level":"info","event":"Task operator:<Task(PythonOperator): test_idempotency>","logger":"task.stdout"}

@@ -1,0 +1,14 @@
+{"timestamp":"2026-02-18T18:51:18.131761Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-18T18:51:18.263442Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-18T18:51:18.263730Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/hello_world_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-18T18:51:18.277736Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.277796Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.278072Z","level":"info","event":"Current task name:print_goodbye","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.278094Z","level":"info","event":"Dag name:hello_world_pipeline","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.278779Z","level":"info","event":"Pipeline finished successfully!","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.278798Z","level":"info","event":"Ready to build ETL pipelines!","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.278797Z","level":"info","event":"Done. Returned value was: Goodbye task completed","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-18T18:51:18.278869Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c7217-9059-7598-b3d7-1de1d8cb2410'), task_id='print_goodbye', dag_id='hello_world_pipeline', run_id='manual__2026-02-18T18:51:12.824350+00:00', try_number=1, dag_version_id=UUID('019c7212-180f-7bfd-9c9b-f6cf0c296322'), map_index=-1, hostname='138-229-58-45-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): print_goodbye>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2026, 2, 18, 18, 51, 17, 889534, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-18T18:51:18.289476Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.289535Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-18T18:51:18.289810Z","level":"info","event":"Task operator:<Task(PythonOperator): print_goodbye>","logger":"task.stdout"}

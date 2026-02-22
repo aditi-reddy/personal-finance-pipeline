@@ -1,0 +1,19 @@
+{"timestamp":"2026-02-19T02:36:27.075480Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-19T02:36:27.306737Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-19T02:36:27.306986Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-19T02:36:27.518286Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.518350Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.518633Z","level":"info","event":"Current task name:download_from_s3","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.518651Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.519353Z","level":"info","event":"📥 Starting S3 download from bucket: aditi-finance-bronze-raw-2025","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.519386Z","level":"info","event":"📄 File: transactions/year=2023/month=01/transactions.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.523724Z","level":"info","event":"Found credentials in shared credentials file: ~/.aws/credentials","logger":"botocore.credentials","filename":"credentials.py","lineno":1392}
+{"timestamp":"2026-02-19T02:36:27.922194Z","level":"info","event":"✅ Successfully downloaded file","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.922554Z","level":"info","event":"📊 File size: 71766 bytes","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.942927Z","level":"info","event":"📊 Total rows: 1000","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.943258Z","level":"info","event":"📊 Columns: ['transaction_id', 'date', 'time', 'merchant', 'category', 'amount', 'payment_method', 'status']","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:27.990532Z","level":"info","event":"Done. Returned value was: /tmp/airflow_transactions.csv","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-19T02:36:27.990722Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c73bc-e425-7978-8c22-a965c48af56f'), task_id='download_from_s3', dag_id='personal_finance_etl', run_id='scheduled__2026-02-19T02:00:00+00:00', try_number=2, dag_version_id=UUID('019c7267-6312-7582-bed8-c3e7cb7e2bf2'), map_index=-1, hostname='138-229-42-21-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): download_from_s3>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=2, start_date=datetime.datetime(2026, 2, 19, 2, 36, 26, 440316, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-19T02:36:28.023206Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:28.023302Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-19T02:36:28.023770Z","level":"info","event":"Task operator:<Task(PythonOperator): download_from_s3>","logger":"task.stdout"}

@@ -1,0 +1,17 @@
+{"timestamp":"2026-02-22T01:22:58.626616Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:22:58.754878Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:22:58.755155Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:22:58.888997Z","level":"warning","event":"The SLA feature is removed in Airflow 3.0, replaced with Deadline Alerts in >=3.1","category":"UserWarning","filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":191,"logger":"py.warnings"}
+{"timestamp":"2026-02-22T01:22:58.898340Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.898398Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.898674Z","level":"info","event":"Current task name:cleanup_temp_files","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.898696Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.899452Z","level":"info","event":"🧹 Cleaning up temporary files...","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.899537Z","level":"info","event":"🗑️  Deleted: /tmp/airflow_transactions.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.899596Z","level":"info","event":"🗑️  Deleted: /tmp/airflow_transactions_transformed.csv","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.899944Z","level":"info","event":"✅ Cleanup complete! Deleted 2 files","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.899745Z","level":"info","event":"Done. Returned value was: 2","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:22:58.899820Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c82f1-3478-7a7c-b8ea-2d6cf2e8a759'), task_id='cleanup_temp_files', dag_id='personal_finance_etl', run_id='manual__2026-02-22T01:22:51.594957+00:00', try_number=1, dag_version_id=UUID('019c82eb-5030-7d5b-96b5-52f3d0f6e793'), map_index=-1, hostname='138-229-50-88-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): cleanup_temp_files>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2026, 2, 22, 1, 22, 58, 310214, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-22T01:22:58.907365Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.907434Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:22:58.907729Z","level":"info","event":"Task operator:<Task(PythonOperator): cleanup_temp_files>","logger":"task.stdout"}

@@ -1,0 +1,25 @@
+{"timestamp":"2026-02-22T01:57:03.624604Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:57:03.820449Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:57:03.821664Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:57:04.103906Z","level":"warning","event":"The SLA feature is removed in Airflow 3.0, replaced with Deadline Alerts in >=3.1","category":"UserWarning","filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":191,"logger":"py.warnings"}
+{"timestamp":"2026-02-22T01:57:04.117133Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.117229Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.117533Z","level":"info","event":"Current task name:benchmark_performance","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.117559Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.135864Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.135934Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.135982Z","level":"info","event":"⚡ PERFORMANCE BENCHMARK REPORT","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136212Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136230Z","level":"info","event":"Database Load Duration: 0.38 seconds","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136247Z","level":"info","event":"Rows Loaded: 1,000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136263Z","level":"info","event":"Throughput: 2646 rows/second","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136279Z","level":"info","event":"🚀 EXCELLENT performance (>400 rows/sec)","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136295Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136311Z","level":"info","event":"Total Pipeline Duration: 11.61 seconds","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136326Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136340Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136379Z","level":"info","event":"📊 Benchmark saved to /tmp/pipeline_benchmarks.json","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.136496Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:57:04.141491Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.146060Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:57:04.146103Z","level":"info","event":"Task operator:<Task(PythonOperator): benchmark_performance>","logger":"task.stdout"}

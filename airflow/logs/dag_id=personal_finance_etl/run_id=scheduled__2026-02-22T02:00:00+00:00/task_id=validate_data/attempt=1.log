@@ -1,0 +1,58 @@
+{"timestamp":"2026-02-22T02:00:08.570310Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T02:00:08.712984Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T02:00:08.713566Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/personal_finance_etl_dag.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T02:00:09.277250Z","level":"warning","event":"The SLA feature is removed in Airflow 3.0, replaced with Deadline Alerts in >=3.1","category":"UserWarning","filename":"/opt/anaconda3/lib/python3.12/site-packages/airflow/providers/standard/operators/python.py","lineno":191,"logger":"py.warnings"}
+{"timestamp":"2026-02-22T02:00:09.299952Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.300199Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.300723Z","level":"info","event":"Current task name:validate_data","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.300773Z","level":"info","event":"Dag name:personal_finance_etl","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.301888Z","level":"info","event":"🔍 Starting comprehensive data quality validation...","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.313656Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.313778Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.313802Z","level":"info","event":"🔍 RUNNING DATA QUALITY CHECKS","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.313822Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.314176Z","level":"info","event":"✅ Schema validation: All required columns present","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.327593Z","level":"info","event":"✅ Data type validation: All types correct","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.328260Z","level":"info","event":"✅ Null check: No nulls in critical columns","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.331531Z","level":"info","event":"✅ Duplicate check: No duplicate transaction IDs","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.331996Z","level":"info","event":"✅ Amount range check: All amounts valid","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.337450Z","level":"info","event":"✅ Date range check: All dates valid","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.339331Z","level":"info","event":"✅ Category check: 10 unique categories","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.342861Z","level":"info","event":"✅ Anomaly detection: 36 statistical outliers detected","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344412Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344447Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344473Z","level":"info","event":"📊 QUALITY CHECK RESULTS","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344492Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344520Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344536Z","level":"info","event":"⚠️  WARNINGS (2):","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344575Z","level":"info","event":"  - Found unexpected categories: Restaurants, Subscriptions, Rent, Gas, Utilities","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344598Z","level":"info","event":"  - Found 36 statistical anomalies (amount > 3 std dev)","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344613Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344627Z","level":"info","event":"📈 QUALITY METRICS:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344641Z","level":"info","event":"  min_amount: 5.73","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344655Z","level":"info","event":"  max_amount: 1945.49","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344669Z","level":"info","event":"  avg_amount: 146.71964000000003","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344683Z","level":"info","event":"  earliest_date: 2023-01-01","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344697Z","level":"info","event":"  latest_date: 2024-12-13","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344711Z","level":"info","event":"  category_counts:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344729Z","level":"info","event":"    - Groceries: 197","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344785Z","level":"info","event":"    - Restaurants: 162","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344806Z","level":"info","event":"    - Shopping: 140","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344820Z","level":"info","event":"    - Gas: 100","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344833Z","level":"info","event":"    - Entertainment: 98","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344847Z","level":"info","event":"    - Subscriptions: 80","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344860Z","level":"info","event":"    - Transportation: 79","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344874Z","level":"info","event":"    - Healthcare: 59","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344887Z","level":"info","event":"    - Rent: 46","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.344986Z","level":"info","event":"    - Utilities: 39","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.345010Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.345029Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.351971Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.352146Z","level":"info","event":"⚠️  Pipeline continuing with 2 warnings","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.352178Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.352197Z","level":"info","event":"✅ Data quality validation passed!","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.352076Z","level":"info","event":"Done. Returned value was: {'total_rows': 1000, 'total_columns': 9, 'issues_count': 0, 'warnings_count': 2, 'checks_passed': True, 'issues': [], 'warnings': ['Found unexpected categories: Restaurants, Subscriptions, Rent, Gas, Utilities', 'Found 36 statistical anomalies (amount > 3 std dev)'], 'metrics': {'min_amount': 5.73, 'max_amount': 1945.49, 'avg_amount': 146.71964000000003, 'earliest_date': '2023-01-01', 'latest_date': '2024-12-13', 'category_counts': {'Groceries': 197, 'Restaurants': 162, 'Shopping': 140, 'Gas': 100, 'Entertainment': 98, 'Subscriptions': 80, 'Transportation': 79, 'Healthcare': 59, 'Rent': 46, 'Utilities': 39}}}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T02:00:09.352251Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c8313-3bb5-7dbf-8984-d8443a1df586'), task_id='validate_data', dag_id='personal_finance_etl', run_id='scheduled__2026-02-22T02:00:00+00:00', try_number=1, dag_version_id=UUID('019c830f-56ab-783c-b56c-81fdb5f82914'), map_index=-1, hostname='138-229-50-88-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): validate_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=3, start_date=datetime.datetime(2026, 2, 22, 2, 0, 8, 125204, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-22T02:00:09.368850Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.368904Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T02:00:09.369336Z","level":"info","event":"Task operator:<Task(PythonOperator): validate_data>","logger":"task.stdout"}

@@ -1,0 +1,20 @@
+{"timestamp":"2026-02-22T01:26:54.184324Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:26:54.485217Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:26:54.485568Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/pipeline_health_check.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:26:54.522625Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.522864Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.523137Z","level":"info","event":"Current task name:check_latest_data","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.523232Z","level":"info","event":"Dag name:pipeline_health_check","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.589418Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.589577Z","level":"info","event":"📊 DATA HEALTH CHECK","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.589633Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.589677Z","level":"info","event":"Total Rows: 1,000","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.589718Z","level":"info","event":"Last Load: 2026-02-21 20:22:56.869814","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.589988Z","level":"info","event":"Hours Since Last Load: 0.1","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.590050Z","level":"info","event":"✅ Data is fresh","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.590092Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.590474Z","level":"info","event":"Done. Returned value was: True","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:26:54.590762Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019c82f4-d289-7ea2-ada0-4d20d9905f36'), task_id='check_latest_data', dag_id='pipeline_health_check', run_id='scheduled__2026-02-22T01:00:00+00:00', try_number=1, dag_version_id=UUID('019c82f3-f2c4-73a0-976f-a72bdc6a5241'), map_index=-1, hostname='138-229-50-88-static.cmsinter.net', context_carrier={}, task=<Task(PythonOperator): check_latest_data>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=1, start_date=datetime.datetime(2026, 2, 22, 1, 26, 53, 284104, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1522}
+{"timestamp":"2026-02-22T01:26:54.616399Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.616540Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:26:54.617198Z","level":"info","event":"Task operator:<Task(PythonOperator): check_latest_data>","logger":"task.stdout"}

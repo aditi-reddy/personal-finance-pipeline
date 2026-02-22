@@ -1,0 +1,23 @@
+{"timestamp":"2026-02-22T01:46:08.869010Z","level":"info","event":"NumExpr defaulting to 8 threads.","logger":"numexpr.utils","filename":"utils.py","lineno":160}
+{"timestamp":"2026-02-22T01:46:09.162555Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-02-22T01:46:09.163097Z","level":"info","event":"Filling up the DagBag from /Users/aditireddy/Desktop/personal-finance-pipeline/personal-finance-pipeline/airflow/dags/data_quality_monitoring.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-02-22T01:46:09.293376Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.293542Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.294867Z","level":"info","event":"Current task name:generate_quality_report","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.294998Z","level":"info","event":"Dag name:data_quality_monitoring","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299177Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299355Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299387Z","level":"info","event":"📈 DATA QUALITY TREND REPORT","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299409Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299426Z","level":"info","event":"Total Checks: 1","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299442Z","level":"info","event":"Passed: 1 (100.0%)","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299457Z","level":"info","event":"Failed: 0 (0.0%)","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299473Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299488Z","level":"info","event":"Recent Checks:","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299504Z","level":"info","event":"  ✅ 2026-02-21T20:46:07.484348: 1000 rows, 0 issues, 2 warnings","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299518Z","level":"info","event":"============================================================","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299533Z","level":"info","event":"","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.299759Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-02-22T01:46:09.319478Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.319638Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-02-22T01:46:09.319776Z","level":"info","event":"Task operator:<Task(PythonOperator): generate_quality_report>","logger":"task.stdout"}
