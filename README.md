@@ -2,7 +2,7 @@
 ### End-to-End Data Engineering Project
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
@@ -24,10 +24,10 @@ Building a production-grade personal finance analytics platform that demonstrate
 - Establish data quality frameworks
 - Deploy cloud-based data infrastructure (AWS)
 - Create data warehouse with optimized schemas
-- **Execute advanced SQL analytics and business intelligence**
-- **Orchestrate pipelines with Apache Airflow**
-- **Implement monitoring and alerting systems**
-- Develop interactive analytics dashboards
+- Execute advanced SQL analytics and business intelligence
+- Orchestrate pipelines with Apache Airflow
+- Implement monitoring and alerting systems
+- **Develop interactive analytics dashboards** ✅
 - Implement data security best practices
 
 ---
@@ -49,19 +49,20 @@ Building a production-grade personal finance analytics platform that demonstrate
 - PostgreSQL 15 (data warehouse)
 - pgAdmin 4 (database administration)
 
-**Pipeline Orchestration:** ⭐ NEW
-- **Apache Airflow 3.1.7**
+**Pipeline Orchestration:**
+- Apache Airflow 3.1.7
 - DAG scheduling and monitoring
 - Task dependencies and workflows
 
 **Data Quality & Testing:**
 - Great Expectations
 - Pandas validation
-- **Automated quality monitoring**
+- Automated quality monitoring
 - Unit testing (pytest)
 
-**Visualization:**
-- Tableau Public
+**Visualization:** ⭐ NEW
+- **Streamlit 1.28+ (interactive dashboards)**
+- **Plotly 5.17+ (charts & graphs)**
 - Python (matplotlib, seaborn)
 
 **Version Control:**
@@ -74,7 +75,8 @@ Building a production-grade personal finance analytics platform that demonstrate
 personal-finance-pipeline/
 │
 ├── README.md
-├── WEEK9_SUMMARY.md                  # ⭐ NEW
+├── WEEK9_SUMMARY.md
+├── WEEK10_SUMMARY.md                 # ⭐ NEW
 │
 ├── data/
 │   ├── transactions.csv              # Original generated data
@@ -91,7 +93,7 @@ personal-finance-pipeline/
 │   ├── download_silver_data.py       # Download data from S3
 │   └── create_expectations.py        # Quality validation script
 │
-├── sql/                              # Week 7-8
+├── sql/
 │   ├── create_schema.sql             # Database schema creation
 │   ├── load_data_to_postgres.py      # Data loading script
 │   └── week7-8/
@@ -99,7 +101,7 @@ personal-finance-pipeline/
 │       ├── Week7-8_Completion_Report.md
 │       └── Week7-8_Insights_Report.md
 │
-├── airflow/                          # ⭐ Week 9
+├── airflow/
 │   ├── README.md                     # Airflow documentation
 │   ├── dags/
 │   │   ├── personal_finance_etl_dag.py        # Main ETL pipeline
@@ -111,8 +113,15 @@ personal-finance-pipeline/
 │   ├── logs/                         # Airflow execution logs
 │   └── airflow.cfg                   # Airflow configuration
 │
-├── dashboards/                       # Coming soon
-└── docs/                             # Coming soon
+├── streamlit_app/                    # ⭐ NEW - Week 10
+│   ├── app.py                        # Main dashboard (Executive Summary)
+│   ├── pages/
+│   │   ├── 1_📊_Category_Analysis.py # Category deep dive
+│   │   ├── 2_📅_Time_Analysis.py     # Time-based analysis
+│   │   └── 3_💡_Insights.py          # Insights & recommendations
+│   └── requirements.txt              # Python dependencies
+│
+└── docs/
 ```
 
 ---
@@ -320,7 +329,7 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 
 ---
 
-### ✅ Phase 7-8: SQL Analytics & Business Intelligence (Completed - Feb 2026) ⭐ NEW
+### ✅ Phase 7-8: SQL Analytics & Business Intelligence (Completed - Feb 2026)
 
 **What I Built:**
 - 18 advanced SQL analytical queries
@@ -416,7 +425,7 @@ Local CSV → S3 Bronze (Raw) → S3 Silver (Processed) → S3 Gold (Analytics)
 
 ---
 
-### ✅ Phase 9: Apache Airflow Pipeline Orchestration (Completed - Feb 2026) ⭐ NEW
+### ✅ Phase 9: Apache Airflow Pipeline Orchestration (Completed - Feb 2026)
 
 **What I Built:**
 - Production-ready Apache Airflow 3.1.7 installation
@@ -551,20 +560,114 @@ CREATE TABLE pipeline_runs (
 
 ---
 
-## 📈 Next Steps
+### ✅ Phase 10: Interactive Dashboard (Completed - March 28, 2026) 🌟
 
-### Phase 10: Tableau Dashboards (Coming Soon)
-- Build interactive visualizations using Week 7-8 CSV exports
-- Create spending analytics dashboard
-- Implement budget tracking views
-- Design executive summary dashboard
-- Publish to Tableau Public
+**What I Built:**
+- Full-stack interactive dashboard using Streamlit
+- 4-page application with live PostgreSQL connection
+- Replaced both Tableau (Week 10) and React (Week 11-12)
+- Professional dark theme with custom styling
+- **Saved 23 hours** by using Streamlit instead of Tableau + React!
 
-### Phase 11-12: Web Application
-- Build React frontend
-- Create interactive UI
-- Integrate Tableau dashboards
-- Deploy final product
+**Dashboards:**
+
+1. **Executive Summary (Home)**
+   - 4 KPI cards: Total Spending ($146,719.64), Avg Transaction ($146.72), Categories (10), Transactions (1,000)
+   - Category bar chart (horizontal, sorted by spending)
+   - Category pie chart (donut style with percentages)
+   - Monthly spending trend line with markers
+   - Top 10 merchants bar chart
+
+2. **📊 Category Analysis**
+   - Interactive category selector dropdown
+   - 4 metrics per category (Total, Average, Max, Transaction Count)
+   - Top merchants in selected category (bar chart)
+   - Payment method distribution (pie chart)
+   - Monthly trend for selected category
+   - Recent transactions table (last 20)
+
+3. **📅 Time Analysis**
+   - Day of week spending bar chart (Monday-Sunday)
+   - Weekend vs Weekday pie chart (77% weekday, 23% weekend)
+   - Cumulative spending area chart
+   - Monthly spending breakdown with color-coded bars
+
+4. **💡 Insights & Anomalies**
+   - Top 5 key insights box (budget concentration: 46.35% rent!)
+   - High-value transactions scatter plot (top 10%)
+   - Budget concentration treemap (visual category dominance)
+   - Category breakdown table with percentages
+   - Spending velocity metrics (transactions/day)
+   - Actionable recommendations table
+
+**Technical Features:**
+- **Live Database Connection:** Direct PostgreSQL integration with connection pooling
+- **Caching:** 10-minute cache (`@st.cache_data`) for optimal performance
+- **Interactive:** Category filters, dropdowns, hover tooltips on charts
+- **Responsive:** Works on desktop and mobile devices
+- **Multi-page:** 4 separate pages with sidebar navigation
+- **GitHub Copilot:** Used extensively (wrote 60% of code!)
+- **Professional Theme:** Custom dark theme with purple/blue gradient colors
+
+**Technology Stack:**
+- Python 3.12 + Streamlit 1.28+
+- Plotly 5.17+ for interactive charts (bar, pie, line, area, scatter, treemap)
+- PostgreSQL 15 (live connection via psycopg2-binary)
+- NumPy & Pandas for data processing
+
+**Key Insights Visualized:**
+- **46.35% budget concentration in Rent** - Massive treemap visualization
+- **$30k Monday spending** - Highest day of week (bar chart)
+- **77% weekday spending** - Weekend vs weekday pie chart
+- **Property Management** - Top merchant ($61k+ spending)
+- **Entertainment analysis** - $5,332 across 98 transactions
+- **1,000 transactions** - Complete financial picture
+
+**Dashboard Screenshots:**
+- Category Analysis page: Interactive dropdown, 4 charts, transaction table
+- Time Analysis page: Day of week, cumulative spending, monthly breakdown
+- Insights page: Scatter plot, treemap, metrics, recommendations
+
+**Why Streamlit > Tableau + React:**
+| Factor | Tableau + React | Streamlit |
+|--------|----------------|-----------|
+| **Time** | 30 hours | 7 hours |
+| **Languages** | None + JavaScript | Python only |
+| **Coding** | Manual clicking + React | All code |
+| **Database** | Static CSVs | Live PostgreSQL |
+| **Version Control** | No | Yes (Git) |
+| **Copilot Help** | No | 60% automated! |
+| **Impressive to recruiters** | Medium | High (shows coding!) |
+
+**Time to Build:** 7 hours (vs. 30 hours for Tableau + React)
+
+**Files Created:**
+- `streamlit_app/app.py` - Main dashboard (250+ lines)
+- `streamlit_app/pages/1_📊_Category_Analysis.py` - Category deep dive (200+ lines)
+- `streamlit_app/pages/2_📅_Time_Analysis.py` - Time-based analysis (180+ lines)
+- `streamlit_app/pages/3_💡_Insights.py` - Insights & recommendations (250+ lines)
+- `streamlit_app/requirements.txt` - Dependencies
+
+**Local Development:**
+```bash
+cd streamlit_app
+streamlit run app.py
+# Dashboard opens at http://localhost:8501
+```
+
+**Cost:** $0.00 (all free tools!)
+
+---
+
+## 📈 Project Complete! 🎉
+
+**Original Plan:** 12 weeks  
+**Actual Duration:** 10 weeks (2 weeks early!)  
+
+**What Changed:**
+- Week 10: Built Streamlit dashboard instead of Tableau
+- Week 11-12: Skipped React (Streamlit replaced it!)
+- **Time Saved:** 23 hours by choosing optimal tech stack
 
 ---
 
@@ -605,7 +708,7 @@ CREATE TABLE pipeline_runs (
 - **Normalization:** Dimension tables for efficient storage
 - **Star Schema Benefits:** Fast queries, intuitive structure, business-friendly
 
-### Week 7-8 Learnings: ⭐ NEW
+### Week 7-8 Learnings:
 - **Advanced SQL:** Window functions, CTEs, statistical analysis
 - **Window Functions:** ROW_NUMBER, RANK, LAG, LEAD, running totals
 - **CTEs:** Breaking complex queries into readable modules
@@ -616,7 +719,7 @@ CREATE TABLE pipeline_runs (
 - **Behavioral Analytics:** Spending patterns, merchant loyalty, transaction frequency
 - **Concentration Metrics:** Herfindahl index for budget distribution risk
 
-### Week 9 Learnings: ⭐ NEW
+### Week 9 Learnings:
 - **Apache Airflow:** DAG development, task orchestration, scheduling
 - **Workflow Automation:** Cron expressions, dependency management, task monitoring
 - **Performance Optimization:** Batch operations, connection pooling, throughput maximization
@@ -625,6 +728,16 @@ CREATE TABLE pipeline_runs (
 - **Error Handling:** Retry strategies, exponential backoff, rollback mechanisms
 - **Production Best Practices:** SLA monitoring, health checks, audit trails
 - **Data Quality at Scale:** Automated validation, anomaly detection, trend analysis
+
+### Week 10 Learnings: 🌟
+- **Streamlit Framework:** Building interactive web apps with Python
+- **Multi-Page Apps:** Navigation, state management, sidebar configuration
+- **Plotly Charts:** Interactive visualizations (10+ chart types)
+- **Database Integration:** Live PostgreSQL connections with caching
+- **UI/UX Design:** Professional themes, color schemes, layout optimization
+- **GitHub Copilot:** AI-assisted coding (60% code generation!)
+- **Tech Stack Selection:** Choosing optimal tools (Streamlit > Tableau + React)
+- **Time Optimization:** Delivering same results in 1/4 of the time
 
 ---
 
@@ -643,16 +756,18 @@ CREATE TABLE pipeline_runs (
 - [x] SQL & Data Modeling
 - [x] Data Warehousing (PostgreSQL)
 - [x] Database Administration
-- [x] **Advanced SQL Analytics** ⭐ NEW
-- [x] **Window Functions & CTEs** ⭐ NEW
-- [x] **Business Intelligence** ⭐ NEW
-- [x] **Statistical Analysis** ⭐ NEW
-- [x] **Apache Airflow & DAG Development** ⭐ NEW
-- [x] **Pipeline Orchestration & Scheduling** ⭐ NEW
-- [x] **Performance Optimization** ⭐ NEW
-- [x] **Production Monitoring & Alerting** ⭐ NEW
-- [ ] Data Visualization (Tableau)
-- [ ] Web Development (React)
+- [x] Advanced SQL Analytics
+- [x] Window Functions & CTEs
+- [x] Business Intelligence
+- [x] Statistical Analysis
+- [x] Apache Airflow & DAG Development
+- [x] Pipeline Orchestration & Scheduling
+- [x] Performance Optimization
+- [x] Production Monitoring & Alerting
+- [x] **Streamlit Web Development** 🌟
+- [x] **Plotly Data Visualization** 🌟
+- [x] **Interactive Dashboard Design** 🌟
+- [x] **GitHub Copilot Integration** 🌟
 
 ---
 
@@ -704,6 +819,21 @@ ORDER BY transaction_date;
 Download from S3 → Validate (8 checks) → Transform → 
 Load to PostgreSQL (2,646 rows/sec) → Cleanup → 
 Track Metrics → Monitor Quality
+```
+
+**Streamlit Dashboard (Week 10 - Live Interactive Visualization):**
+```python
+# Connect to PostgreSQL
+conn = psycopg2.connect(**PG_CONFIG)
+
+# Load data with caching
+@st.cache_data(ttl=600)
+def load_data(query):
+    return pd.read_sql(query, conn)
+
+# Display interactive chart
+fig = px.bar(df, x='category', y='amount')
+st.plotly_chart(fig)
 ```
 
 ---
@@ -759,14 +889,14 @@ psql -U postgres -d personal_finance_warehouse -f create_schema.sql
 python load_data_to_postgres.py
 ```
 
-6. **Execute SQL analytics:** ⭐ NEW
+6. **Execute SQL analytics:**
 ```bash
 # Open pgAdmin or psql
 # Run queries from Week7-8_Insights_Report.md
-# Export results to CSV for Tableau
+# Export results to CSV
 ```
 
-7. **Start Apache Airflow:** ⭐ NEW
+7. **Start Apache Airflow:**
 ```bash
 # Set environment variables
 export no_proxy='*'
@@ -779,8 +909,20 @@ cd ~/Desktop/personal-finance-pipeline/personal-finance-pipeline
 airflow standalone
 
 # Access UI at http://localhost:8080
-# Username: admin
-# Password: (from simple_auth_manager_passwords.json.generated)
+```
+
+8. **Run Streamlit Dashboard:** 🌟
+```bash
+# Navigate to streamlit_app folder
+cd streamlit_app
+
+# Install dependencies
+pip install -r requirements.txt --break-system-packages
+
+# Start dashboard
+streamlit run app.py
+
+# Access at http://localhost:8501
 ```
 
 ---
@@ -793,10 +935,10 @@ Detailed documentation for each phase:
 - ✅ ETL pipeline architecture
 - ✅ Data quality framework
 - ✅ Data warehouse design and implementation
-- ✅ **SQL analytics and insights** ⭐ NEW
-- ✅ **Apache Airflow orchestration** ⭐ NEW
-- ✅ **Pipeline monitoring and alerting** ⭐ NEW
-- Coming: Tableau dashboard development
+- ✅ SQL analytics and insights
+- ✅ Apache Airflow orchestration
+- ✅ Pipeline monitoring and alerting
+- ✅ **Streamlit dashboard development** 🌟
 
 ---
 
@@ -816,30 +958,34 @@ Detailed documentation for each phase:
 - **Week 3 (Jan 2026):** ✅ ETL pipeline development complete
 - **Week 4 (Jan 2026):** ✅ Data quality framework complete
 - **Week 5-6 (Jan 2026):** ✅ Data warehouse implementation complete
-- **Week 7-8 (Feb 2026):** ✅ **SQL analytics & business intelligence complete** ⭐
-- **Week 9 (Feb 2026):** ✅ **Apache Airflow pipeline orchestration complete** ⭐
-- **Week 10:** Tableau dashboards (Coming Soon)
-- **Week 11-12:** React web application
+- **Week 7-8 (Feb 2026):** ✅ SQL analytics & business intelligence complete
+- **Week 9 (Feb 2026):** ✅ Apache Airflow pipeline orchestration complete
+- **Week 10 (March 2026):** ✅ **Streamlit interactive dashboard complete** 🌟
+- **Week 11-12:** ✅ **SKIPPED** (Streamlit replaced Tableau + React)
+
+**PROJECT 100% COMPLETE!** 🎉
 
 ---
 
 ## 📊 Project Metrics
 
-**Overall Progress:** 75% Complete (9/12 weeks)
+**Overall Progress:** 100% Complete (10/12 weeks - Finished 2 weeks early!)
 
 **Code & Documentation:**
-- **Lines of Code:** 3,500+
+- **Lines of Code:** 4,000+
 - **Lines of SQL:** 600+
 - **DAGs Created:** 4 production + 1 tutorial
 - **SQL Queries:** 18 analytical queries
-- **Documentation:** 8,000+ words
+- **Dashboard Pages:** 4 interactive pages
+- **Charts Created:** 10+ Plotly visualizations
+- **Documentation:** 10,000+ words
 
 **Data Engineering:**
 - **Data Quality Checks:** 8 comprehensive validations
 - **Performance Improvement:** 26x faster loading
 - **Pipeline Tasks:** 8 orchestrated tasks
-- **Data Processed:** 1,000+ transactions
-- **CSV Exports:** 18 for Tableau
+- **Data Processed:** 1,000+ transactions ($146,719.64)
+- **CSV Exports:** 18 for analysis
 
 **Automation & Monitoring:**
 - **Scheduled DAGs:** 3 automated (ETL, health, quality)
@@ -847,11 +993,27 @@ Detailed documentation for each phase:
 - **Quality Pass Rate:** 100%
 - **Idempotent Operations:** Yes (safe re-runs)
 
+**Visualization:**
+- **Dashboard Pages:** 4 (Executive, Category, Time, Insights)
+- **Interactive Charts:** 10+ (bar, pie, line, area, scatter, treemap)
+- **Real-time Data:** Live PostgreSQL connection
+- **Cache Performance:** 10-minute TTL
+
+**Time Saved:**
+- Streamlit vs Tableau: 10 hours saved
+- Streamlit vs React: 13 hours saved
+- **Total:** 23 hours saved by optimal tech choice!
+
 ---
 
 ## ⭐ Acknowledgments
 
-This project is part of my portfolio to demonstrate data engineering capabilities for full-time opportunities. Special focus on fintech industry standards including data security, compliance considerations, production-ready code, advanced SQL analytics, and enterprise-grade pipeline orchestration.
+This project is part of my portfolio to demonstrate data engineering capabilities for full-time opportunities. Special focus on fintech industry standards including data security, compliance considerations, production-ready code, advanced SQL analytics, enterprise-grade pipeline orchestration, and modern data visualization techniques.
+
+**Key Technologies Leveraged:**
+- GitHub Student Developer Pack (Copilot, Azure credits, FrontendMasters)
+- Open source tools (PostgreSQL, Airflow, Streamlit)
+- AWS Free Tier (S3, Glue)
 
 ---
 
@@ -861,4 +1023,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-**Status:** 🚧 Active Development | Last Updated: February 2026 | 75% Complete (9/12 weeks)
+**Status:** ✅ PROJECT COMPLETE! | Completed: March 28, 2026 | 100% Complete (10/12 weeks, 2 weeks early!) 🎉
